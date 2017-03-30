@@ -1,0 +1,8 @@
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-03-30T11:22:12+0200 #1032] config.log: Creating metadata storage
+I, [2017-03-30T11:22:12+0200 #1032] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-03-30T11:22:12+0200 #1032] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3bc1cf0 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-03-30T11:22:20+0200 #1032] config.log: Closing all browsers
+D, [2017-03-30T11:22:20+0200 #1032] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4332978>
+D, [2017-03-30T11:22:20+0200 #1032] config.log: Writing storage to: ./storage/metadata.json

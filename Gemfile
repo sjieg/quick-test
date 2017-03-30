@@ -7,4 +7,5 @@ source 'http://rubygems.org'
 # LapisLazul itself
 gem 'lapis_lazuli'
 
-gem 'watir', :git => 'https://github.com/watir/watir.git', :ref => '472732a'
+#gem 'watir', :git => 'https://github.com/watir/watir.git', :ref => '472732a'
+gem 'watir'

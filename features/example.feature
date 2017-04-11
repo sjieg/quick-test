@@ -10,12 +10,12 @@ I want to run and adjust the tests below
 #    When the user searches for "lapis lazuli"
 #    Then text "Open Source" should display
 #
-#  @example02
-#  Scenario: example02 - Going to a search result
-#    Given the user has searched for "lapis lazuli" on "blog"
-#    When the user clicks on link "/announcing-lapislazuli/"
-#    Then text "Let's talk about testing" should display
-#
+  @example02
+  Scenario: example02 - Going to a search result
+    Given the user has searched for "lapis lazuli" on "blog"
+    When the user clicks on link "/announcing-lapislazuli/"
+    Then text "Let's bark about testing" should display
+    
   @example03
   Scenario Outline: example03 - checking multiple pages for the logo
     Given the user navigates to "<page>"

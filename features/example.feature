@@ -20,7 +20,7 @@ I want to run and adjust the tests below
   Scenario Outline: example03 - checking multiple pages for the logo
     Given the user navigates to "<page>"
     When the user clicks on the spritecloud logo
-    Then the user should be on page "tesing" #intended error
+    Then the user should be on page "tesing"
     Scenarios:
       | page               |
       | blog               |

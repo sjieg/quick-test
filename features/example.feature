@@ -24,7 +24,7 @@ I want to run and adjust the tests below
     Scenarios:
       | page               |
       | blog               |
-      | home               |
-      | about-us           |
-      | testing            |
-      | functional-testing |
+#      | home               |
+#      | about-us           |
+#      | testing            |
+#      | functional-testing |

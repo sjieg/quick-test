@@ -11,25 +11,27 @@ World(LapisLazuli)
 # Do something when LapisLazuli is started (This is before the browser is opened)
 LapisLazuli.Start do
   # Print gem information
-  print "---- VERSION INFO ----\n"
-  print "Lapis Lazuli: #{Gem.loaded_specs['lapis_lazuli'].version}\n"
-  print "Selenium webdriver: #{Gem.loaded_specs['selenium-webdriver'].version}\n"
-  print "Watir: #{Gem.loaded_specs['watir'].version}\n"
-  print "---- VERSION INFO ----\n\n"
+  # print "---- VERSION INFO ----\n"
+  # print "Lapis Lazuli: #{Gem.loaded_specs['lapis_lazuli'].version}\n"
+  # print "Selenium webdriver: #{Gem.loaded_specs['selenium-webdriver'].version}\n"
+  # print "Watir: #{Gem.loaded_specs['watir'].version}\n"
+  # print "Cucumber: #{Gem.loaded_specs['cucumber'].version}\n"
+  # print "Cucumber Core: #{Gem.loaded_specs['cucumber-core'].version}\n"
+  # print "---- VERSION INFO ----\n\n"
   #If BROWSER is NIL, Lapis Lazuli will default to Firefox
-  if !ENV['BROWSER'] || ENV['BROWSER'] == 'firefox'
-
-    # Get Selenium to create a profile object
-    require 'selenium-webdriver'
-    profile = Selenium::WebDriver::Firefox::Profile.new
-
-    # These settings prevent a warning after authenticating via URL
-    # For example user:pass@https://website.com/
-    profile['network.http.phishy-userpass-length'] = 255
-    profile['network.http.use-cache'] = false
-
-    # Start the browser with these settings
-    browser :firefox, :profile => profile
-
-  end
+  # if !ENV['BROWSER'] || ENV['BROWSER'] == 'firefox'
+  #
+  #   # Get Selenium to create a profile object
+  #   require 'selenium-webdriver'
+  #   profile = Selenium::WebDriver::Firefox::Profile.new
+  #
+  #   # These settings prevent a warning after authenticating via URL
+  #   # For example user:pass@https://website.com/
+  #   profile['network.http.phishy-userpass-length'] = 255
+  #   profile['network.http.use-cache'] = false
+  #
+  #   # Start the browser with these settings
+  #   browser :firefox, :profile => profile
+  #
+  # end
 end

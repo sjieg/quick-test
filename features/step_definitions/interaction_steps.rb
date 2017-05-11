@@ -25,13 +25,14 @@ Given(/^the user navigates to the "(.*?)" page$/) do |page|
   browser.goto url
 end
 
-Given(/^the user searches for "(.*?)"$/) do |query|
+Given(/^the user searches for "(.*?)"$/) do |value|
   # Get the input element
-  searchbox = browser.find(:text_field => {:name => "s"})
+  searchbox = browser.find(:input => {:name => "s"}).to_subtype
   # Make sure the input field is empty
-  searchbox.clear rescue log.debug "Could not clear searchbox"
+  searchbox.clear
   # Fill in the query
-  searchbox.send_keys(query)
+  p value
+  searchbox.set value
   # Press enter to submit the search
   searchbox.send_keys(:enter)
 end

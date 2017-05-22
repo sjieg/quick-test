@@ -1,0 +1,434 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Example Feature",
+    "line": 2,
+    "description": "When I want to learn how to make test cases\nAs a user of the test automation tool\nI want to run and adjust the tests below",
+    "tags": [
+      {
+        "name": "@example",
+        "line": 1
+      },
+      {
+        "name": "@p",
+        "line": 1
+      }
+    ],
+    "id": "example-feature",
+    "uri": "features\\example.feature",
+    "elements": [
+      {
+        "comments": [
+          {
+            "value": "#  @example01",
+            "line": 7
+          },
+          {
+            "value": "#  Scenario: example01 - Spritecloud search",
+            "line": 8
+          },
+          {
+            "value": "#    Given the user navigates to \"blog\"",
+            "line": 9
+          },
+          {
+            "value": "#    When the user searches for \"lapis lazuli\"",
+            "line": 10
+          },
+          {
+            "value": "#    Then text \"Open Source\" should display",
+            "line": 11
+          },
+          {
+            "value": "#",
+            "line": 12
+          }
+        ],
+        "keyword": "Scenario",
+        "name": "example02 - Going to a search result",
+        "line": 14,
+        "description": "",
+        "tags": [
+          {
+            "name": "@example02",
+            "line": 13
+          }
+        ],
+        "id": "example-feature;example02---going-to-a-search-result",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user has searched for \"lapis lazuli\" on \"blog\"",
+            "line": 15,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 27,
+                  "val": "lapis lazuli"
+                },
+                {
+                  "offset": 45,
+                  "val": "blog"
+                }
+              ],
+              "location": "features/step_definitions/precondition_steps.rb:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 529000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on link \"/announcing-lapislazuli/\"",
+            "line": 16,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 25,
+                  "val": "/announcing-lapislazuli/"
+                }
+              ],
+              "location": "features/step_definitions/interaction_steps.rb:39"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "text \"Let's bark about testing\" should display",
+            "line": 17,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 6,
+                  "val": "Let's bark about testing"
+                }
+              ],
+              "location": "features/step_definitions/validation_steps.rb:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 500000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with examples",
+        "line": 26,
+        "description": "",
+        "tags": [
+          {
+            "name": "@example03",
+            "line": 19
+          }
+        ],
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-examples;;2",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"blog\"",
+            "line": 21,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "blog"
+                }
+              ],
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5858549000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491288000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 23,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 28,
+                  "val": "tesing"
+                }
+              ],
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no implicit conversion of nil into String (TypeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:23:in `Then the user should be on page \"tesing\"'",
+              "duration": 4009999
+            },
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJmZWF0dXJlc19leGFtcGxlLmZlYXR1cmVfMjZfaW5fYmxvZyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDI1XzExNDU1M19fYmxvZ18ucG5nIn1dfQ=="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with examples",
+        "line": 27,
+        "description": "",
+        "tags": [
+          {
+            "name": "@example03",
+            "line": 19
+          }
+        ],
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-examples;;3",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"home\"",
+            "line": 21,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "home"
+                }
+              ],
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 814372000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 22,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485784000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 23,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 28,
+                  "val": "tesing"
+                }
+              ],
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no implicit conversion of nil into String (TypeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:23:in `Then the user should be on page \"tesing\"'",
+              "duration": 3541000
+            },
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJmZWF0dXJlc19leGFtcGxlLmZlYXR1cmVfMjdfaW5faG9tZSI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDI1XzExNDU1M19faG9tZV8ucG5nIn1dfQ=="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "value": "#      | about-us           |",
+            "line": 28
+          },
+          {
+            "value": "#      | testing            |",
+            "line": 29
+          },
+          {
+            "value": "#      | functional-testing |",
+            "line": 30
+          }
+        ],
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with scenarios",
+        "line": 39,
+        "description": "",
+        "tags": [
+          {
+            "name": "@example03",
+            "line": 32
+          }
+        ],
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-scenarios;;2",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"blog\"",
+            "line": 34,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "blog"
+                }
+              ],
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 989185000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504294000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 36,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 28,
+                  "val": "tesing"
+                }
+              ],
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no implicit conversion of nil into String (TypeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:36:in `Then the user should be on page \"tesing\"'",
+              "duration": 3051000
+            },
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJmZWF0dXJlc19leGFtcGxlLmZlYXR1cmVfMzlfaW5fYmxvZyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDI1XzExNDU1M19fYmxvZ18ucG5nIn1dfQ=="
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "value": "#      | about-us           |",
+            "line": 28
+          },
+          {
+            "value": "#      | testing            |",
+            "line": 29
+          },
+          {
+            "value": "#      | functional-testing |",
+            "line": 30
+          }
+        ],
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with scenarios",
+        "line": 40,
+        "description": "",
+        "tags": [
+          {
+            "name": "@example03",
+            "line": 32
+          }
+        ],
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-scenarios;;3",
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"home\"",
+            "line": 34,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 23,
+                  "val": "home"
+                }
+              ],
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944560000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 35,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 519177000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 36,
+            "match": {
+              "arguments": [
+                {
+                  "offset": 28,
+                  "val": "tesing"
+                }
+              ],
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "no implicit conversion of nil into String (TypeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:36:in `Then the user should be on page \"tesing\"'",
+              "duration": 3509000
+            },
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJmZWF0dXJlc19leGFtcGxlLmZlYXR1cmVfNDBfaW5faG9tZSI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDI1XzExNDU1M19faG9tZV8ucG5nIn1dfQ=="
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

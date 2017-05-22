@@ -98,3 +98,9 @@ $RECYCLE.BIN/
 *.lnk
 Gemfile.lock
 *.log
+.idea/quick-test.iml
+.idea/workspace.xml
+Gemfile.lock
+logs/config.log
+*.png
+.idea/quick-test.iml

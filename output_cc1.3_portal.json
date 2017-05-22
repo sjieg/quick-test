@@ -1,0 +1,403 @@
+{
+  "profile_id": "@@SC_PROFILE_ID@@",
+  "run_id": "@@SC_RUN_ID@@",
+  "executed": "2017-04-25 09:42:50 UTC",
+  "executed_timestamp": 1.493113370089404e+15,
+  "os": "@@SC_OS@@",
+  "browser": "@@SC_BROWSER@@",
+  "features": 1,
+  "scenarios": 5,
+  "scenarios_passed": 0,
+  "scenarios_skipped": 1,
+  "scenarios_pending": 0,
+  "scenarios_undefined": 0,
+  "scenarios_failed": 4,
+  "steps": 15,
+  "steps_passed": 8,
+  "steps_skipped": 3,
+  "steps_pending": 0,
+  "steps_undefined": 0,
+  "steps_failed": 4,
+  "feature_results_attributes": [
+    {
+      "name": "Example Feature",
+      "user_story": "When I want to learn how to make test cases\nAs a user of the test automation tool\nI want to run and adjust the tests below",
+      "file": "features\\example.feature",
+      "scenarios": 5,
+      "scenarios_passed": 0,
+      "scenarios_skipped": 1,
+      "scenarios_pending": 0,
+      "scenarios_undefined": 0,
+      "scenarios_failed": 4,
+      "steps": 15,
+      "steps_passed": 8,
+      "steps_skipped": 3,
+      "steps_pending": 0,
+      "steps_undefined": 0,
+      "steps_failed": 4,
+      "steplist_results_attributes": [
+        {
+          "name": "example02 - Going to a search result",
+          "file_colon_line": "features\\example.feature:14",
+          "steplist_type": "scenario",
+          "tags": [
+            "@example",
+            "@p",
+            "@example02"
+          ],
+          "scenarios": 0,
+          "scenarios_passed": 0,
+          "scenarios_skipped": 0,
+          "scenarios_pending": 0,
+          "scenarios_undefined": 0,
+          "scenarios_failed": 0,
+          "steps": 3,
+          "steps_passed": 0,
+          "steps_skipped": 3,
+          "steps_pending": 0,
+          "steps_undefined": 0,
+          "steps_failed": 0,
+          "children_attributes": [],
+          "step_results_attributes": [
+            {
+              "index": 0,
+              "file_colon_line": "features\\example.feature:15",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:50 UTC",
+              "executed_timestamp": 1.49311337063305e+15,
+              "summary": "Given  the user has searched for \"lapis lazuli\" on \"blog\""
+            },
+            {
+              "index": 1,
+              "file_colon_line": "features\\example.feature:16",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:50 UTC",
+              "executed_timestamp": 1.49311337063305e+15,
+              "summary": "When  the user clicks on link \"/announcing-lapislazuli/\""
+            },
+            {
+              "index": 2,
+              "file_colon_line": "features\\example.feature:17",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:50 UTC",
+              "executed_timestamp": 1.493113370633551e+15,
+              "summary": "Then  text \"Let's bark about testing\" should display"
+            }
+          ],
+          "status": "skipped"
+        },
+        {
+          "name": "example03 - checking multiple pages for the logo with examples",
+          "file_colon_line": "features\\example.feature:20",
+          "steplist_type": "scenario_outline",
+          "tags": [
+            "@example",
+            "@example03"
+          ],
+          "scenarios": 2,
+          "scenarios_passed": 0,
+          "scenarios_skipped": 0,
+          "scenarios_pending": 0,
+          "scenarios_undefined": 0,
+          "scenarios_failed": 2,
+          "steps": 6,
+          "steps_passed": 4,
+          "steps_skipped": 0,
+          "steps_pending": 0,
+          "steps_undefined": 0,
+          "steps_failed": 2,
+          "children_attributes": [
+            {
+              "name": "| blog |",
+              "file_colon_line": "features\\example.feature:26",
+              "steplist_type": "scenario",
+              "tags": [
+                "@example",
+                "@example03"
+              ],
+              "scenarios": 0,
+              "scenarios_passed": 0,
+              "scenarios_skipped": 0,
+              "scenarios_pending": 0,
+              "scenarios_undefined": 0,
+              "scenarios_failed": 0,
+              "steps": 3,
+              "steps_passed": 2,
+              "steps_skipped": 0,
+              "steps_pending": 0,
+              "steps_undefined": 0,
+              "steps_failed": 1,
+              "children_attributes": [],
+              "step_results_attributes": [
+                {
+                  "index": 0,
+                  "file_colon_line": "features\\example.feature:21",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:42:50 UTC",
+                  "executed_timestamp": 1.493113370640411e+15,
+                  "summary": "Given  the user navigates to \"blog\""
+                },
+                {
+                  "index": 1,
+                  "file_colon_line": "features\\example.feature:22",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:42:56 UTC",
+                  "executed_timestamp": 1.493113376007337e+15,
+                  "summary": "When  the user clicks on the spritecloud logo"
+                },
+                {
+                  "index": 2,
+                  "file_colon_line": "features\\example.feature:23",
+                  "status": "failed",
+                  "executed": "2017-04-25 09:42:56 UTC",
+                  "executed_timestamp": 1.49311337652021e+15,
+                  "summary": "Then  the user should be on page \"tesing\"",
+                  "exception_class": "TypeError",
+                  "exception_message": "no implicit conversion of nil into String",
+                  "exception_backtrace": "./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:23:in `Then the user should be on page \"tesing\"'"
+                }
+              ],
+              "status": "failed"
+            },
+            {
+              "name": "| home |",
+              "file_colon_line": "features\\example.feature:27",
+              "steplist_type": "scenario",
+              "tags": [
+                "@example",
+                "@example03"
+              ],
+              "scenarios": 0,
+              "scenarios_passed": 0,
+              "scenarios_skipped": 0,
+              "scenarios_pending": 0,
+              "scenarios_undefined": 0,
+              "scenarios_failed": 0,
+              "steps": 3,
+              "steps_passed": 2,
+              "steps_skipped": 0,
+              "steps_pending": 0,
+              "steps_undefined": 0,
+              "steps_failed": 1,
+              "children_attributes": [],
+              "step_results_attributes": [
+                {
+                  "index": 0,
+                  "file_colon_line": "features\\example.feature:21",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:42:56 UTC",
+                  "executed_timestamp": 1.49311337675775e+15,
+                  "summary": "Given  the user navigates to \"home\""
+                },
+                {
+                  "index": 1,
+                  "file_colon_line": "features\\example.feature:22",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:42:57 UTC",
+                  "executed_timestamp": 1.493113377545194e+15,
+                  "summary": "When  the user clicks on the spritecloud logo"
+                },
+                {
+                  "index": 2,
+                  "file_colon_line": "features\\example.feature:23",
+                  "status": "failed",
+                  "executed": "2017-04-25 09:42:58 UTC",
+                  "executed_timestamp": 1.493113378041254e+15,
+                  "summary": "Then  the user should be on page \"tesing\"",
+                  "exception_class": "TypeError",
+                  "exception_message": "no implicit conversion of nil into String",
+                  "exception_backtrace": "./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:23:in `Then the user should be on page \"tesing\"'"
+                }
+              ],
+              "status": "failed"
+            }
+          ],
+          "step_results_attributes": [
+            {
+              "index": 0,
+              "file_colon_line": "features\\example.feature:21",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:50 UTC",
+              "executed_timestamp": 1.49311337063503e+15,
+              "summary": "Given  the user navigates to \"<page>\""
+            },
+            {
+              "index": 1,
+              "file_colon_line": "features\\example.feature:22",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:50 UTC",
+              "executed_timestamp": 1.49311337063555e+15,
+              "summary": "When  the user clicks on the spritecloud logo"
+            },
+            {
+              "index": 2,
+              "file_colon_line": "features\\example.feature:23",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:50 UTC",
+              "executed_timestamp": 1.49311337063555e+15,
+              "summary": "Then  the user should be on page \"tesing\""
+            }
+          ],
+          "status": "failed"
+        },
+        {
+          "name": "example03 - checking multiple pages for the logo with scenarios",
+          "file_colon_line": "features\\example.feature:33",
+          "steplist_type": "scenario_outline",
+          "tags": [
+            "@example",
+            "@example03"
+          ],
+          "scenarios": 2,
+          "scenarios_passed": 0,
+          "scenarios_skipped": 0,
+          "scenarios_pending": 0,
+          "scenarios_undefined": 0,
+          "scenarios_failed": 2,
+          "steps": 6,
+          "steps_passed": 4,
+          "steps_skipped": 0,
+          "steps_pending": 0,
+          "steps_undefined": 0,
+          "steps_failed": 2,
+          "children_attributes": [
+            {
+              "name": "| blog |",
+              "file_colon_line": "features\\example.feature:39",
+              "steplist_type": "scenario",
+              "tags": [
+                "@example",
+                "@example03"
+              ],
+              "scenarios": 0,
+              "scenarios_passed": 0,
+              "scenarios_skipped": 0,
+              "scenarios_pending": 0,
+              "scenarios_undefined": 0,
+              "scenarios_failed": 0,
+              "steps": 3,
+              "steps_passed": 2,
+              "steps_skipped": 0,
+              "steps_pending": 0,
+              "steps_undefined": 0,
+              "steps_failed": 1,
+              "children_attributes": [],
+              "step_results_attributes": [
+                {
+                  "index": 0,
+                  "file_colon_line": "features\\example.feature:34",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:42:58 UTC",
+                  "executed_timestamp": 1.493113378348341e+15,
+                  "summary": "Given  the user navigates to \"blog\""
+                },
+                {
+                  "index": 1,
+                  "file_colon_line": "features\\example.feature:35",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:42:59 UTC",
+                  "executed_timestamp": 1.49311337928355e+15,
+                  "summary": "When  the user clicks on the spritecloud logo"
+                },
+                {
+                  "index": 2,
+                  "file_colon_line": "features\\example.feature:36",
+                  "status": "failed",
+                  "executed": "2017-04-25 09:42:59 UTC",
+                  "executed_timestamp": 1.493113379784417e+15,
+                  "summary": "Then  the user should be on page \"tesing\"",
+                  "exception_class": "TypeError",
+                  "exception_message": "no implicit conversion of nil into String",
+                  "exception_backtrace": "./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:36:in `Then the user should be on page \"tesing\"'"
+                }
+              ],
+              "status": "failed"
+            },
+            {
+              "name": "| home |",
+              "file_colon_line": "features\\example.feature:40",
+              "steplist_type": "scenario",
+              "tags": [
+                "@example",
+                "@example03"
+              ],
+              "scenarios": 0,
+              "scenarios_passed": 0,
+              "scenarios_skipped": 0,
+              "scenarios_pending": 0,
+              "scenarios_undefined": 0,
+              "scenarios_failed": 0,
+              "steps": 3,
+              "steps_passed": 2,
+              "steps_skipped": 0,
+              "steps_pending": 0,
+              "steps_undefined": 0,
+              "steps_failed": 1,
+              "children_attributes": [],
+              "step_results_attributes": [
+                {
+                  "index": 0,
+                  "file_colon_line": "features\\example.feature:34",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:43:00 UTC",
+                  "executed_timestamp": 1.493113380011607e+15,
+                  "summary": "Given  the user navigates to \"home\""
+                },
+                {
+                  "index": 1,
+                  "file_colon_line": "features\\example.feature:35",
+                  "status": "passed",
+                  "executed": "2017-04-25 09:43:01 UTC",
+                  "executed_timestamp": 1.493113381115989e+15,
+                  "summary": "When  the user clicks on the spritecloud logo"
+                },
+                {
+                  "index": 2,
+                  "file_colon_line": "features\\example.feature:36",
+                  "status": "failed",
+                  "executed": "2017-04-25 09:43:01 UTC",
+                  "executed_timestamp": 1.493113381619903e+15,
+                  "summary": "Then  the user should be on page \"tesing\"",
+                  "exception_class": "TypeError",
+                  "exception_message": "no implicit conversion of nil into String",
+                  "exception_backtrace": "./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures\\example.feature:36:in `Then the user should be on page \"tesing\"'"
+                }
+              ],
+              "status": "failed"
+            }
+          ],
+          "step_results_attributes": [
+            {
+              "index": 0,
+              "file_colon_line": "features\\example.feature:34",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:58 UTC",
+              "executed_timestamp": 1.493113378342339e+15,
+              "summary": "Given  the user navigates to \"<page>\""
+            },
+            {
+              "index": 1,
+              "file_colon_line": "features\\example.feature:35",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:58 UTC",
+              "executed_timestamp": 1.493113378342853e+15,
+              "summary": "When  the user clicks on the spritecloud logo"
+            },
+            {
+              "index": 2,
+              "file_colon_line": "features\\example.feature:36",
+              "status": "skipped",
+              "executed": "2017-04-25 09:42:58 UTC",
+              "executed_timestamp": 1.493113378343328e+15,
+              "summary": "Then  the user should be on page \"tesing\""
+            }
+          ],
+          "status": "failed"
+        }
+      ],
+      "tags": "@example",
+      "status": "failed"
+    }
+  ],
+  "execution_time": 11.955996
+}

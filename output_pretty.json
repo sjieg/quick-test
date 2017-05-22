@@ -1,0 +1,521 @@
+[
+  {
+    "uri": "features/example.feature",
+    "id": "example-feature",
+    "keyword": "Feature",
+    "name": "Example Feature",
+    "description": "When I want to learn how to make test cases\nAs a user of the test automation tool\nI want to run and adjust the tests below",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@example",
+        "line": 1
+      },
+      {
+        "name": "@p",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "example-feature;example02---going-to-a-search-result",
+        "keyword": "Scenario",
+        "name": "example02 - Going to a search result",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@example",
+            "line": 1
+          },
+          {
+            "name": "@p",
+            "line": 1
+          },
+          {
+            "name": "@example02",
+            "line": 13
+          }
+        ],
+        "comments": [
+          {
+            "value": "#  @example01",
+            "line": 7
+          },
+          {
+            "value": "#  Scenario: example01 - Spritecloud search",
+            "line": 8
+          },
+          {
+            "value": "#    Given the user navigates to \"blog\"",
+            "line": 9
+          },
+          {
+            "value": "#    When the user searches for \"lapis lazuli\"",
+            "line": 10
+          },
+          {
+            "value": "#    Then text \"Open Source\" should display",
+            "line": 11
+          },
+          {
+            "value": "#",
+            "line": 12
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4359016803
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user has searched for \"lapis lazuli\" on \"blog\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/precondition_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3352540166
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on link \"/announcing-lapislazuli/\"",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2664961845
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "text \"Let's bark about testing\" should display",
+            "line": 17,
+            "match": {
+              "location": "features/step_definitions/validation_steps.rb:8"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ] (Watir::Wait::TimeoutError)\n./features/step_definitions/validation_steps.rb:22:in `/text \"([^\"]*)\" should display/'\nfeatures/example.feature:17:in `Then text \"Let's bark about testing\" should display'",
+              "duration": 10148650154
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJpdGVtcyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDEzXzE0Mzg0MV9leGFtcGxlMDJfLV9Hb2luZ190b19hX3NlYXJjaF9yZXN1bHQucG5nIn1dfQ=="
+              }
+            ],
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254727305
+            }
+          }
+        ]
+      },
+      {
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-examples;;2",
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with examples",
+        "description": "",
+        "line": 26,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@example",
+            "line": 1
+          },
+          {
+            "name": "@p",
+            "line": 1
+          },
+          {
+            "name": "@example03",
+            "line": 19
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1251949
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"blog\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1138615594
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 772128576
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unknown environment variable 'production.pages.tesing' and no default given (RuntimeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures/example.feature:26:in `Then the user should be on page \"tesing\"'\nfeatures/example.feature:23:in `Then the user should be on page \"tesing\"'",
+              "duration": 4551898
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJpdGVtcyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDEzXzE0Mzg0MV9leGFtcGxlMDNfLV9jaGVja2luZ19tdWx0aXBsZV9wYWdlc19mb3JfdGhlX2xvZ29fd2l0aF9leGFtcGxlc19FeGFtcGxlc18xXy5wbmcifV19"
+              }
+            ],
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249071605
+            }
+          }
+        ]
+      },
+      {
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-examples;;3",
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with examples",
+        "description": "",
+        "line": 27,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@example",
+            "line": 1
+          },
+          {
+            "name": "@p",
+            "line": 1
+          },
+          {
+            "name": "@example03",
+            "line": 19
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 677925
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"home\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 959505020
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 822261868
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unknown environment variable 'production.pages.tesing' and no default given (RuntimeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures/example.feature:27:in `Then the user should be on page \"tesing\"'\nfeatures/example.feature:23:in `Then the user should be on page \"tesing\"'",
+              "duration": 3055405
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJpdGVtcyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDEzXzE0Mzg0MV9leGFtcGxlMDNfLV9jaGVja2luZ19tdWx0aXBsZV9wYWdlc19mb3JfdGhlX2xvZ29fd2l0aF9leGFtcGxlc19FeGFtcGxlc18yXy5wbmcifV19"
+              }
+            ],
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343092667
+            }
+          }
+        ]
+      },
+      {
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-scenarios;;2",
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with scenarios",
+        "description": "",
+        "line": 39,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@example",
+            "line": 1
+          },
+          {
+            "name": "@p",
+            "line": 1
+          },
+          {
+            "name": "@example03",
+            "line": 32
+          }
+        ],
+        "comments": [
+          {
+            "value": "#      | about-us           |",
+            "line": 28
+          },
+          {
+            "value": "#      | testing            |",
+            "line": 29
+          },
+          {
+            "value": "#      | functional-testing |",
+            "line": 30
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 690173
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"blog\"",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1219338493
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760079992
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 39,
+            "match": {
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unknown environment variable 'production.pages.tesing' and no default given (RuntimeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures/example.feature:39:in `Then the user should be on page \"tesing\"'\nfeatures/example.feature:36:in `Then the user should be on page \"tesing\"'",
+              "duration": 2648097
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJpdGVtcyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDEzXzE0Mzg0MV9leGFtcGxlMDNfLV9jaGVja2luZ19tdWx0aXBsZV9wYWdlc19mb3JfdGhlX2xvZ29fd2l0aF9zY2VuYXJpb3NfU2NlbmFyaW9zXzFfLnBuZyJ9XX0="
+              }
+            ],
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 229407028
+            }
+          }
+        ]
+      },
+      {
+        "id": "example-feature;example03---checking-multiple-pages-for-the-logo-with-scenarios;;3",
+        "keyword": "Scenario Outline",
+        "name": "example03 - checking multiple pages for the logo with scenarios",
+        "description": "",
+        "line": 40,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@example",
+            "line": 1
+          },
+          {
+            "name": "@p",
+            "line": 1
+          },
+          {
+            "name": "@example03",
+            "line": 32
+          }
+        ],
+        "comments": [
+          {
+            "value": "#      | about-us           |",
+            "line": 28
+          },
+          {
+            "value": "#      | testing            |",
+            "line": 29
+          },
+          {
+            "value": "#      | functional-testing |",
+            "line": 30
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1205332
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"home\"",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1045349100
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "the user clicks on the spritecloud logo",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 796142383
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "the user should be on page \"tesing\"",
+            "line": 40,
+            "match": {
+              "location": "features/step_definitions/validation_steps.rb:25"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Unknown environment variable 'production.pages.tesing' and no default given (RuntimeError)\n./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures/example.feature:40:in `Then the user should be on page \"tesing\"'\nfeatures/example.feature:36:in `Then the user should be on page \"tesing\"'",
+              "duration": 1553777
+            }
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJpdGVtcyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDEzXzE0Mzg0MV9leGFtcGxlMDNfLV9jaGVja2luZ19tdWx0aXBsZV9wYWdlc19mb3JfdGhlX2xvZ29fd2l0aF9zY2VuYXJpb3NfU2NlbmFyaW9zXzJfLnBuZyJ9XX0="
+              }
+            ],
+            "match": {
+              "location": "lapis_lazuli-1.1.0/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347494837
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

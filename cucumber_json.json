@@ -1,0 +1,228 @@
+[
+  {
+    "uri": "features/outline_test.feature",
+    "id": "this-is-line-2",
+    "keyword": "Feature",
+    "name": "This is line 2",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@outlinetest",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "this-is-line-2;this-is-line-5;;2",
+        "keyword": "Scenario Outline",
+        "name": "This is line 5",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@outlinetest",
+            "line": 1
+          },
+          {
+            "name": "@outline",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164046028
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "this step is line 6",
+            "line": 6,
+            "match": {
+              "location": "features/outline_test.feature:6"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:21"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "when this step uses \"example-line-11\" this should be line 7",
+            "line": 7,
+            "match": {
+              "location": "features/outline_test.feature:7"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:21"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "this is line 8",
+            "line": 8,
+            "match": {
+              "location": "features/outline_test.feature:8"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:21"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1097480
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-is-line-2;this-is-line-14",
+        "keyword": "Scenario",
+        "name": "This is line 14",
+        "description": "",
+        "line": 14,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@outlinetest",
+            "line": 1
+          },
+          {
+            "name": "@regular",
+            "line": 13
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 970666
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "this step is line 15",
+            "line": 15,
+            "match": {
+              "location": "features/outline_test.feature:15"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:21"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "when this step uses \"no-outline\" this should be line 16",
+            "line": 16,
+            "match": {
+              "location": "features/outline_test.feature:16"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:21"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "this is line 17",
+            "line": 17,
+            "match": {
+              "location": "features/outline_test.feature:17"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:21"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3487996
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

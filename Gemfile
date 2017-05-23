@@ -6,8 +6,8 @@ source 'http://rubygems.org'
 
 # LapisLazul itself
 #gem 'cucumber', '3.0.0.pre.1'
-#gem 'lapis_lazuli'
-gem 'lapis_lazuli', :path => '../lapis-lazuli/'
+gem 'lapis_lazuli'
+#gem 'lapis_lazuli', :path => '../lapis-lazuli/'
 #gem 'watir', :path => '../watir-6.2.1/'
 #gem 'selenium-webdriver', '3.4.0'
 # gem 'lapis_lazuli', '0.8.2'

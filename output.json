@@ -1,0 +1,202 @@
+{
+  "profile_id": "@@SC_PROFILE_ID@@",
+  "run_id": "@@SC_RUN_ID@@",
+  "executed": "2017-04-11 14:54:32 UTC",
+  "executed_timestamp": 1.491922472206637e+15,
+  "os": "@@SC_OS@@",
+  "browser": "@@SC_BROWSER@@",
+  "features": 1,
+  "scenarios": 2,
+  "scenarios_passed": 0,
+  "scenarios_skipped": 0,
+  "scenarios_pending": 0,
+  "scenarios_undefined": 0,
+  "scenarios_failed": 2,
+  "steps": 6,
+  "steps_passed": 4,
+  "steps_skipped": 0,
+  "steps_pending": 0,
+  "steps_undefined": 0,
+  "steps_failed": 2,
+  "feature_results_attributes": [
+    {
+      "name": "Example Feature",
+      "user_story": null,
+      "file": "features/example.feature",
+      "scenarios": 2,
+      "scenarios_passed": 0,
+      "scenarios_skipped": 0,
+      "scenarios_pending": 0,
+      "scenarios_undefined": 0,
+      "scenarios_failed": 2,
+      "steps": 6,
+      "steps_passed": 4,
+      "steps_skipped": 0,
+      "steps_pending": 0,
+      "steps_undefined": 0,
+      "steps_failed": 2,
+      "steplist_results_attributes": [
+        {
+          "name": "example02 - Going to a search result",
+          "file_colon_line": "features/example.feature:14",
+          "steplist_type": "scenario",
+          "tags": [
+            "@example",
+            "@p",
+            "@example02"
+          ],
+          "scenarios": 0,
+          "scenarios_passed": 0,
+          "scenarios_skipped": 0,
+          "scenarios_pending": 0,
+          "scenarios_undefined": 0,
+          "scenarios_failed": 0,
+          "steps": 3,
+          "steps_passed": 2,
+          "steps_skipped": 0,
+          "steps_pending": 0,
+          "steps_undefined": 0,
+          "steps_failed": 1,
+          "children_attributes": [],
+          "step_results_attributes": [
+            {
+              "index": 0,
+              "file_colon_line": "features/example.feature:15",
+              "status": "passed",
+              "executed": "2017-04-11 14:54:38 UTC",
+              "executed_timestamp": 1.491922478196987e+15,
+              "summary": "Given  the user has searched for \"lapis lazuli\" on \"blog\""
+            },
+            {
+              "index": 1,
+              "file_colon_line": "features/example.feature:16",
+              "status": "passed",
+              "executed": "2017-04-11 14:54:40 UTC",
+              "executed_timestamp": 1.491922480624803e+15,
+              "summary": "When  the user clicks on link \"/announcing-lapislazuli/\""
+            },
+            {
+              "index": 2,
+              "file_colon_line": "features/example.feature:17",
+              "status": "failed",
+              "executed": "2017-04-11 14:54:50 UTC",
+              "executed_timestamp": 1.491922490798084e+15,
+              "summary": "Then  text \"Let's bark about testing\" should display",
+              "exception_class": "Watir::Wait::TimeoutError",
+              "exception_message": "Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i,: filter_by=>: present?}
+              ]
+              [
+              https: //spritecloud.com/2015/03/announcing-lapislazuli/ ]",
+              "exception_backtrace": "./features/step_definitions/validation_steps.rb:22:in `/text \"([^\"]*)\" should display/'\nfeatures/example.feature:17:in `Then text \"Let's bark about testing\" should display'"}
+              ],
+              "status": "failed"
+            },
+            {
+              "name": "example03 - checking multiple pages for the logo",
+              "file_colon_line": "features/example.feature:20",
+              "steplist_type": "scenario_outline",
+              "tags": [
+                "@example",
+                "@example03"
+              ],
+              "scenarios": 1,
+              "scenarios_passed": 0,
+              "scenarios_skipped": 0,
+              "scenarios_pending": 0,
+              "scenarios_undefined": 0,
+              "scenarios_failed": 1,
+              "steps": 3,
+              "steps_passed": 2,
+              "steps_skipped": 0,
+              "steps_pending": 0,
+              "steps_undefined": 0,
+              "steps_failed": 1,
+              "children_attributes": [
+                {
+                  "name": "| blog |",
+                  "file_colon_line": "features/example.feature:26",
+                  "steplist_type": "scenario",
+                  "tags": [
+                    "@example",
+                    "@example03"
+                  ],
+                  "scenarios": 0,
+                  "scenarios_passed": 0,
+                  "scenarios_skipped": 0,
+                  "scenarios_pending": 0,
+                  "scenarios_undefined": 0,
+                  "scenarios_failed": 0,
+                  "steps": 3,
+                  "steps_passed": 2,
+                  "steps_skipped": 0,
+                  "steps_pending": 0,
+                  "steps_undefined": 0,
+                  "steps_failed": 1,
+                  "children_attributes": [],
+                  "step_results_attributes": [
+                    {
+                      "index": 0,
+                      "file_colon_line": "features/example.feature:26",
+                      "status": "passed",
+                      "executed": "2017-04-11 14:54:52 UTC",
+                      "executed_timestamp": 1.49192249215368e+15,
+                      "summary": "Given  the user navigates to \"blog\""
+                    },
+                    {
+                      "index": 1,
+                      "file_colon_line": "features/example.feature:26",
+                      "status": "passed",
+                      "executed": "2017-04-11 14:54:52 UTC",
+                      "executed_timestamp": 1.491922492926537e+15,
+                      "summary": "When  the user clicks on the spritecloud logo"
+                    },
+                    {
+                      "index": 2,
+                      "file_colon_line": "features/example.feature:26",
+                      "status": "failed",
+                      "executed": "2017-04-11 14:54:52 UTC",
+                      "executed_timestamp": 1.491922492929482e+15,
+                      "summary": "Then  the user should be on page \"tesing\"",
+                      "exception_class": "RuntimeError",
+                      "exception_message": "Unknown environment variable 'production.pages.tesing' and no default given",
+                      "exception_backtrace": "./features/step_definitions/validation_steps.rb:28:in `/^the user should be on page \"(.*?)\"$/'\nfeatures/example.feature:26:in `Then the user should be on page \"tesing\"'\nfeatures/example.feature:23:in `Then the user should be on page \"tesing\"'"
+                    }
+                  ],
+                  "status": "failed"
+                }
+              ],
+              "step_results_attributes": [
+                {
+                  "index": 0,
+                  "file_colon_line": "features/example.feature:21",
+                  "status": "skipped",
+                  "executed": "2017-04-11 14:54:52 UTC",
+                  "executed_timestamp": 1.49192249215368e+15,
+                  "summary": "Given  the user navigates to \"<page>\""
+                },
+                {
+                  "index": 1,
+                  "file_colon_line": "features/example.feature:22",
+                  "status": "skipped",
+                  "executed": "2017-04-11 14:54:52 UTC",
+                  "executed_timestamp": 1.49192249215368e+15,
+                  "summary": "When  the user clicks on the spritecloud logo"
+                },
+                {
+                  "index": 2,
+                  "file_colon_line": "features/example.feature:23",
+                  "status": "skipped",
+                  "executed": "2017-04-11 14:54:52 UTC",
+                  "executed_timestamp": 1.49192249215368e+15,
+                  "summary": "Then  the user should be on page \"tesing\""
+                }
+              ],
+              "status": "failed"
+            }
+          ],
+          "tags": "@example",
+          "status": "failed"
+        }
+      ],
+      "execution_time": 20.938932
+    }

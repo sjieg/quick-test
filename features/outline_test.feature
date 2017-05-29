@@ -1,16 +1,17 @@
-Feature: This is line 1
+@outlinetest
+Feature: This is line 2
 
   @outline
-  Scenario Outline: This is line 4
-    Given this step is line 5
-    When when this step uses "<outline-item>" this should be line 6
-    Then this is line 7
+  Scenario Outline: This is line 5
+    Given this step is line 6
+    When when this step uses "<outline-item>" this should be line 7
+    Then this is line 8
     Examples:
       | outline-item    |
-      | example-line-10 |
+      | example-line-11 |
 
   @regular
-  Scenario: This is line 13
-    Given this step is line 14
-    When when this step uses "no-outline" this should be line 15
-    Then this is line 16
+  Scenario: This is line 14
+    Given this step is line 15
+    When when this step uses "no-outline" this should be line 16
+    Then this is line 17

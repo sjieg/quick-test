@@ -25,6 +25,10 @@ Given(/^the user navigates to the "(.*?)" page$/) do |page|
   browser.goto url
 end
 
+Given(/^the user navigates to URL "(.*?)"$/) do |url|
+  browser.goto url
+end
+
 Given(/^the user searches for "(.*?)"$/) do |value|
   # Get the input element
   searchbox = browser.find(:input => {:name => "s"}).to_subtype
@@ -40,19 +44,19 @@ end
 When(/^the user clicks on link "(.*?)"$/) do |url|
   # Search for the element that includes the expected text
   browser.wait(
-    :like => {
-      :element => :a,
-      :attribute => :href,
-      :include => url
-    }
+      :like => {
+          :element => :a,
+          :attribute => :href,
+          :include => url
+      }
   ).click
 end
 
 When(/^the user clicks on the spritecloud logo$/) do
   # Search for the logo
   logo = browser.find(
-    :like => [:img, :id, 'logo'],
-    :message => 'Unable to find the logo on this page.'
+      :like => [:img, :id, 'logo'],
+      :message => 'Unable to find the logo on this page.'
   )
   # And click the logo
   logo.click
@@ -69,15 +73,15 @@ When(/^"?(.*?|the user)"? logs in$/) do |user_tag|
   end
   # Fill in the user form
   browser.find(
-    :like => [:input, :id, 'login-username']
+      :like => [:input, :id, 'login-username']
   ).set(get_user_data('username'))
   browser.find(
-    :like => [:input, :id, 'login-password']
+      :like => [:input, :id, 'login-password']
   ).set(get_user_data('password'))
 
   # Press the submit button
   browser.find(
-    :like => [:button, :id, 'button-login']
+      :like => [:button, :id, 'button-login']
   ).click
 end
 
@@ -89,19 +93,19 @@ When(/^the user clicks on the logout button$/) do
 
   # Then click the logout button (in this case, first a drop down needs to be clicked, before the logout button shows)
   browser.find(
-    :like => [:a, :id, 'user_dropdown'],
-    :context => header,
-    :message => 'Unable to click on the user icon'
+      :like => [:a, :id, 'user_dropdown'],
+      :context => header,
+      :message => 'Unable to click on the user icon'
   ).click
   dropdown = browser.wait(
-    :like => [:ul, :class, 'dropdown-menu'],
-    :timeout => 5,
-    :message => 'The user dropdown didn`t become present.'
+      :like => [:ul, :class, 'dropdown-menu'],
+      :timeout => 5,
+      :message => 'The user dropdown didn`t become present.'
   )
   browser.find(
-    :like => [:a, :id, 'link-logout'],
-    :context => dropdown,
-    :error => 'Failed to click the logout button.'
+      :like => [:a, :id, 'link-logout'],
+      :context => dropdown,
+      :error => 'Failed to click the logout button.'
   ).click
 end
 
@@ -126,9 +130,9 @@ When(/^"(.*?)" registers for a new account$/) do |user_tag|
 
   # Select gender
   browser.find(
-    :label => {:text => /#{get_user_data('gender')}/i},
-    :context => form,
-    :message => "Unable to find gender `#{get_user_data('gender')}`, are you sure it's an option to select??"
+      :label => {:text => /#{get_user_data('gender')}/i},
+      :context => form,
+      :message => "Unable to find gender `#{get_user_data('gender')}`, are you sure it's an option to select??"
   ).click
 
   # Select experiences from the multi-select list
@@ -138,15 +142,15 @@ When(/^"(.*?)" registers for a new account$/) do |user_tag|
   # The following function will cut text at every comma, and loop trough every separate word
   experiences.split(',').each do |exp|
     option = browser.find(
-      :option => {:value => /#{exp}/i},
-      :context => multi_selector
+        :option => {:value => /#{exp}/i},
+        :context => multi_selector
     )
     option.click
   end
 
   # Fill in the biagraphy
   browser.find(
-    :like => [:textarea, :id, 'register-bio']
+      :like => [:textarea, :id, 'register-bio']
   ).send_keys(get_user_data('biography'))
 
   # Click the accept policy checkbox
@@ -157,8 +161,8 @@ When(/^"(.*?)" registers for a new account$/) do |user_tag|
 
   # Wait for the success message to display
   browser.wait(
-    :like => [:div, :class, 'alert-success'],
-    :message => 'The successfully registered message did not display.'
+      :like => [:div, :class, 'alert-success'],
+      :message => 'The successfully registered message did not display.'
   )
 
   # The website we're testing on, doesn't log in the user automatically. So let's trigger that step manually

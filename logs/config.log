@@ -6,3 +6,1522 @@ D, [2017-03-30T11:22:12+0200 #1032] config.log: Got optional data: {:profile=>#<
 D, [2017-03-30T11:22:20+0200 #1032] config.log: Closing all browsers
 D, [2017-03-30T11:22:20+0200 #1032] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4332978>
 D, [2017-03-30T11:22:20+0200 #1032] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-03-30T11:38:55+0200 #5020] config.log: Creating metadata storage
+I, [2017-03-30T11:38:55+0200 #5020] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-03-30T11:38:55+0200 #5020] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3da8698 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-03-30T11:39:03+0200 #5020] config.log: Closing all browsers
+D, [2017-03-30T11:39:03+0200 #5020] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4522ab8>
+D, [2017-03-30T11:39:03+0200 #5020] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-11T16:46:23+0200 #15136] config.log: Creating metadata storage
+I, [2017-04-11T16:46:23+0200 #15136] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+I, [2017-04-11T16:46:23+0200 #15136] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-11T16:46:31+0200 #15136] config.log: Screenshot saved: ./screenshots/170411_164631_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+D, [2017-04-11T16:46:32+0200 #15136] config.log: Closing all browsers
+D, [2017-04-11T16:46:32+0200 #15136] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x41e59a8>
+D, [2017-04-11T16:46:32+0200 #15136] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-11T16:47:16+0200 #13112] config.log: Creating metadata storage
+I, [2017-04-11T16:47:16+0200 #13112] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+I, [2017-04-11T16:47:16+0200 #13112] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-11T16:47:23+0200 #13112] config.log: Screenshot saved: ./screenshots/170411_164723_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+D, [2017-04-11T16:47:23+0200 #13112] config.log: Closing all browsers
+D, [2017-04-11T16:47:23+0200 #13112] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x43318c8>
+D, [2017-04-11T16:47:23+0200 #13112] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-11T16:51:55+0200 #16016] config.log: Creating metadata storage
+I, [2017-04-11T16:51:55+0200 #16016] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+I, [2017-04-11T16:51:55+0200 #16016] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-11T16:52:03+0200 #16016] config.log: Screenshot saved: ./screenshots/170411_165203_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+D, [2017-04-11T16:52:03+0200 #16016] config.log: Closing all browsers
+D, [2017-04-11T16:52:03+0200 #16016] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x42eec80>
+D, [2017-04-11T16:52:03+0200 #16016] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-11T16:52:34+0200 #12296] config.log: Creating metadata storage
+I, [2017-04-11T16:52:34+0200 #12296] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-11T16:52:35+0200 #12296] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3bef380 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-11T16:52:53+0200 #12296] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-11T16:52:54+0200 #12296] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-11T16:52:54+0200 #12296] config.log: Screenshot saved: ./screenshots/170411_165254_example02_-_Going_to_a_search_result.png
+I, [2017-04-11T16:52:54+0200 #12296] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-11T16:52:57+0200 #12296] config.log: Screenshot saved: ./screenshots/170411_165254_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+D, [2017-04-11T16:52:57+0200 #12296] config.log: Closing all browsers
+D, [2017-04-11T16:52:57+0200 #12296] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4404f78>
+D, [2017-04-11T16:52:57+0200 #12296] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-11T16:53:09+0200 #14748] config.log: Creating metadata storage
+I, [2017-04-11T16:53:09+0200 #14748] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-11T16:53:10+0200 #14748] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3bb4160 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-11T16:53:28+0200 #14748] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-11T16:53:28+0200 #14748] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-11T16:53:28+0200 #14748] config.log: Screenshot saved: ./screenshots/170411_165328_example02_-_Going_to_a_search_result.png
+I, [2017-04-11T16:53:28+0200 #14748] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-11T16:53:31+0200 #14748] config.log: Screenshot saved: ./screenshots/170411_165328_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+D, [2017-04-11T16:53:31+0200 #14748] config.log: Closing all browsers
+D, [2017-04-11T16:53:31+0200 #14748] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x43d4960>
+D, [2017-04-11T16:53:31+0200 #14748] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-11T16:54:32+0200 #19188] config.log: Creating metadata storage
+I, [2017-04-11T16:54:32+0200 #19188] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-11T16:54:32+0200 #19188] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3b34bb8 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-11T16:54:50+0200 #19188] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-11T16:54:50+0200 #19188] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-11T16:54:51+0200 #19188] config.log: Screenshot saved: ./screenshots/170411_165450_example02_-_Going_to_a_search_result.png
+I, [2017-04-11T16:54:51+0200 #19188] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-11T16:54:53+0200 #19188] config.log: Screenshot saved: ./screenshots/170411_165450_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+D, [2017-04-11T16:54:53+0200 #19188] config.log: Closing all browsers
+D, [2017-04-11T16:54:53+0200 #19188] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x43509c0>
+D, [2017-04-11T16:54:53+0200 #19188] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-12T15:45:35+0200 #15232] config.log: Creating metadata storage
+I, [2017-04-12T15:45:35+0200 #15232] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-12T15:45:36+0200 #15232] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3c92b20 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-12T15:45:55+0200 #15232] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-12T15:45:55+0200 #15232] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-12T15:45:56+0200 #15232] config.log: Screenshot saved: ./screenshots/170412_154555_example02_-_Going_to_a_search_result.png
+I, [2017-04-12T15:45:56+0200 #15232] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-blog
+D, [2017-04-12T15:45:58+0200 #15232] config.log: Screenshot saved: ./screenshots/170412_154555_example03_-_checking_multiple_pages_for_the_logo_1_.png
+I, [2017-04-12T15:45:58+0200 #15232] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo-home
+D, [2017-04-12T15:46:00+0200 #15232] config.log: Screenshot saved: ./screenshots/170412_154555_example03_-_checking_multiple_pages_for_the_logo_2_.png
+D, [2017-04-12T15:46:00+0200 #15232] config.log: Closing all browsers
+D, [2017-04-12T15:46:00+0200 #15232] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4460040>
+D, [2017-04-12T15:46:00+0200 #15232] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-12T15:47:28+0200 #16316] config.log: Creating metadata storage
+I, [2017-04-12T15:47:28+0200 #16316] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-12T15:47:29+0200 #16316] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x475f968 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-12T15:47:47+0200 #16316] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-12T15:47:47+0200 #16316] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-12T15:47:47+0200 #16316] config.log: Screenshot saved: ./screenshots/170412_154747_example02_-_Going_to_a_search_result.png
+I, [2017-04-12T15:47:47+0200 #16316] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-12T15:47:49+0200 #16316] config.log: Screenshot saved: ./screenshots/170412_154747_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-12T15:47:49+0200 #16316] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-12T15:47:52+0200 #16316] config.log: Screenshot saved: ./screenshots/170412_154747_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-12T15:47:52+0200 #16316] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-12T15:47:54+0200 #16316] config.log: Screenshot saved: ./screenshots/170412_154747_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-12T15:47:54+0200 #16316] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-12T15:47:56+0200 #16316] config.log: Screenshot saved: ./screenshots/170412_154747_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-12T15:47:56+0200 #16316] config.log: Closing all browsers
+D, [2017-04-12T15:47:56+0200 #16316] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bbdfe8>
+D, [2017-04-12T15:47:56+0200 #16316] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-12T15:48:52+0200 #13244] config.log: Creating metadata storage
+I, [2017-04-12T15:48:52+0200 #13244] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-12T15:48:52+0200 #13244] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3b56368 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-12T15:49:10+0200 #13244] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-12T15:49:10+0200 #13244] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-12T15:49:11+0200 #13244] config.log: Screenshot saved: ./screenshots/170412_154910_example02_-_Going_to_a_search_result.png
+I, [2017-04-12T15:49:11+0200 #13244] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-12T15:49:13+0200 #13244] config.log: Screenshot saved: ./screenshots/170412_154910_example03_-_checking_multiple_pages_for_the_logo_with_examples_1_.png
+I, [2017-04-12T15:49:13+0200 #13244] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-12T15:49:15+0200 #13244] config.log: Screenshot saved: ./screenshots/170412_154910_example03_-_checking_multiple_pages_for_the_logo_with_examples_2_.png
+I, [2017-04-12T15:49:15+0200 #13244] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-12T15:49:17+0200 #13244] config.log: Screenshot saved: ./screenshots/170412_154910_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-12T15:49:17+0200 #13244] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-12T15:49:20+0200 #13244] config.log: Screenshot saved: ./screenshots/170412_154910_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-12T15:49:20+0200 #13244] config.log: Closing all browsers
+D, [2017-04-12T15:49:20+0200 #13244] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x438e478>
+D, [2017-04-12T15:49:20+0200 #13244] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-13T14:38:21+0200 #16416] config.log: Creating metadata storage
+I, [2017-04-13T14:38:21+0200 #16416] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-13T14:38:22+0200 #16416] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x46bfd80 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-13T14:38:41+0200 #16416] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-13T14:38:41+0200 #16416] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-13T14:38:42+0200 #16416] config.log: Screenshot saved: ./screenshots/170413_143841_example02_-_Going_to_a_search_result.png
+I, [2017-04-13T14:38:42+0200 #16416] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-13T14:38:44+0200 #16416] config.log: Screenshot saved: ./screenshots/170413_143841_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-13T14:38:44+0200 #16416] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-13T14:38:46+0200 #16416] config.log: Screenshot saved: ./screenshots/170413_143841_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-13T14:38:46+0200 #16416] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-13T14:38:48+0200 #16416] config.log: Screenshot saved: ./screenshots/170413_143841_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-13T14:38:48+0200 #16416] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-13T14:38:50+0200 #16416] config.log: Screenshot saved: ./screenshots/170413_143841_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-13T14:38:50+0200 #16416] config.log: Closing all browsers
+D, [2017-04-13T14:38:50+0200 #16416] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x30fcf78>
+D, [2017-04-13T14:38:51+0200 #16416] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-13T14:39:55+0200 #880] config.log: Creating metadata storage
+I, [2017-04-13T14:39:55+0200 #880] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-13T14:39:56+0200 #880] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x47453e8 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-13T14:40:15+0200 #880] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-13T14:40:15+0200 #880] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-13T14:40:15+0200 #880] config.log: Screenshot saved: ./screenshots/170413_144015_example02_-_Going_to_a_search_result.png
+I, [2017-04-13T14:40:15+0200 #880] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-13T14:40:18+0200 #880] config.log: Screenshot saved: ./screenshots/170413_144015_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-13T14:40:18+0200 #880] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-13T14:40:20+0200 #880] config.log: Screenshot saved: ./screenshots/170413_144015_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-13T14:40:20+0200 #880] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-13T14:40:22+0200 #880] config.log: Screenshot saved: ./screenshots/170413_144015_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-13T14:40:22+0200 #880] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-13T14:40:24+0200 #880] config.log: Screenshot saved: ./screenshots/170413_144015_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-13T14:40:24+0200 #880] config.log: Closing all browsers
+D, [2017-04-13T14:40:24+0200 #880] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x31cc770>
+D, [2017-04-13T14:40:25+0200 #880] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-13T14:42:58+0200 #14728] config.log: Creating metadata storage
+I, [2017-04-13T14:42:58+0200 #14728] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-13T14:42:58+0200 #14728] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x46bbce8 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-13T14:43:17+0200 #14728] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-13T14:43:17+0200 #14728] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-13T14:43:18+0200 #14728] config.log: Screenshot saved: ./screenshots/170413_144317_example02_-_Going_to_a_search_result.png
+I, [2017-04-13T14:43:18+0200 #14728] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-13T14:43:20+0200 #14728] config.log: Screenshot saved: ./screenshots/170413_144317_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-13T14:43:20+0200 #14728] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-13T14:43:22+0200 #14728] config.log: Screenshot saved: ./screenshots/170413_144317_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-13T14:43:22+0200 #14728] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-13T14:43:24+0200 #14728] config.log: Screenshot saved: ./screenshots/170413_144317_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-13T14:43:24+0200 #14728] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-13T14:43:27+0200 #14728] config.log: Screenshot saved: ./screenshots/170413_144317_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-13T14:43:27+0200 #14728] config.log: Closing all browsers
+D, [2017-04-13T14:43:27+0200 #14728] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3a8d620>
+D, [2017-04-13T14:43:27+0200 #14728] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-13T14:47:33+0200 #17264] config.log: Creating metadata storage
+I, [2017-04-13T14:47:33+0200 #17264] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-13T14:47:33+0200 #17264] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x456dbc0 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-13T14:47:53+0200 #17264] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-13T14:47:53+0200 #17264] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-13T14:47:53+0200 #17264] config.log: Screenshot saved: ./screenshots/170413_144753_example02_-_Going_to_a_search_result.png
+I, [2017-04-13T14:47:53+0200 #17264] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-13T14:47:56+0200 #17264] config.log: Screenshot saved: ./screenshots/170413_144753_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-13T14:47:56+0200 #17264] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-13T14:47:58+0200 #17264] config.log: Screenshot saved: ./screenshots/170413_144753_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-13T14:47:58+0200 #17264] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-13T14:48:00+0200 #17264] config.log: Screenshot saved: ./screenshots/170413_144753_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-13T14:48:00+0200 #17264] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-13T14:48:02+0200 #17264] config.log: Screenshot saved: ./screenshots/170413_144753_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-13T14:48:02+0200 #17264] config.log: Closing all browsers
+D, [2017-04-13T14:48:02+0200 #17264] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4783110>
+D, [2017-04-13T14:48:02+0200 #17264] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-13T15:17:56+0200 #2172] config.log: Creating metadata storage
+I, [2017-04-13T15:17:56+0200 #2172] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-13T15:17:56+0200 #2172] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x46db350 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-13T15:18:17+0200 #2172] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-13T15:18:17+0200 #2172] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-13T15:18:17+0200 #2172] config.log: Screenshot saved: ./screenshots/170413_151817_example02_-_Going_to_a_search_result.png
+I, [2017-04-13T15:18:17+0200 #2172] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-13T15:18:19+0200 #2172] config.log: Screenshot saved: ./screenshots/170413_151817_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-13T15:18:19+0200 #2172] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-13T15:18:21+0200 #2172] config.log: Screenshot saved: ./screenshots/170413_151817_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-13T15:18:22+0200 #2172] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-13T15:18:24+0200 #2172] config.log: Screenshot saved: ./screenshots/170413_151817_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-13T15:18:24+0200 #2172] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-13T15:18:26+0200 #2172] config.log: Screenshot saved: ./screenshots/170413_151817_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-13T15:18:26+0200 #2172] config.log: Closing all browsers
+D, [2017-04-13T15:18:26+0200 #2172] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3a97be0>
+D, [2017-04-13T15:18:27+0200 #2172] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-13T15:19:54+0200 #8224] config.log: Creating metadata storage
+I, [2017-04-13T15:19:54+0200 #8224] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-13T15:19:54+0200 #8224] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x4704b70 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-13T15:20:13+0200 #8224] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-04-13T15:20:14+0200 #8224] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-04-13T15:20:14+0200 #8224] config.log: Screenshot saved: ./screenshots/170413_152014_example02_-_Going_to_a_search_result.png
+I, [2017-04-13T15:20:14+0200 #8224] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-13T15:20:17+0200 #8224] config.log: Screenshot saved: ./screenshots/170413_152014_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-13T15:20:17+0200 #8224] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-13T15:20:19+0200 #8224] config.log: Screenshot saved: ./screenshots/170413_152014_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-13T15:20:19+0200 #8224] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-13T15:20:22+0200 #8224] config.log: Screenshot saved: ./screenshots/170413_152014_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-13T15:20:22+0200 #8224] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-13T15:20:25+0200 #8224] config.log: Screenshot saved: ./screenshots/170413_152014_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-04-13T15:20:25+0200 #8224] config.log: Closing all browsers
+D, [2017-04-13T15:20:25+0200 #8224] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3a9afd0>
+D, [2017-04-13T15:20:26+0200 #8224] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T11:42:50+0200 #10680] config.log: Creating metadata storage
+I, [2017-04-25T11:42:50+0200 #10680] config.log: Starting Scenario: features_example.feature-example02_-_Going_to_a_search_result
+I, [2017-04-25T11:42:50+0200 #10680] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-25T11:42:56+0200 #10680] config.log: Screenshot saved: ./screenshots/170425_114256__blog_.png
+I, [2017-04-25T11:42:56+0200 #10680] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-25T11:42:58+0200 #10680] config.log: Screenshot saved: ./screenshots/170425_114256__home_.png
+I, [2017-04-25T11:42:58+0200 #10680] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-25T11:43:00+0200 #10680] config.log: Screenshot saved: ./screenshots/170425_114256__blog_.png
+I, [2017-04-25T11:43:00+0200 #10680] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-25T11:43:01+0200 #10680] config.log: Screenshot saved: ./screenshots/170425_114256__home_.png
+D, [2017-04-25T11:43:01+0200 #10680] config.log: Closing all browsers
+D, [2017-04-25T11:43:01+0200 #10680] config.log: Closing browser after feature: #<Watir::Browser:0x42859f8>
+D, [2017-04-25T11:43:02+0200 #10680] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T11:45:46+0200 #13512] config.log: Creating metadata storage
+I, [2017-04-25T11:45:46+0200 #13512] config.log: Starting Scenario: features_example.feature-example02_-_Going_to_a_search_result
+I, [2017-04-25T11:45:46+0200 #13512] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-25T11:45:53+0200 #13512] config.log: Screenshot saved: ./screenshots/170425_114553__blog_.png
+I, [2017-04-25T11:45:53+0200 #13512] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-25T11:45:54+0200 #13512] config.log: Screenshot saved: ./screenshots/170425_114553__home_.png
+I, [2017-04-25T11:45:54+0200 #13512] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-25T11:45:56+0200 #13512] config.log: Screenshot saved: ./screenshots/170425_114553__blog_.png
+I, [2017-04-25T11:45:56+0200 #13512] config.log: Starting Scenario: features_example.feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-25T11:45:58+0200 #13512] config.log: Screenshot saved: ./screenshots/170425_114553__home_.png
+D, [2017-04-25T11:45:58+0200 #13512] config.log: Closing all browsers
+D, [2017-04-25T11:45:58+0200 #13512] config.log: Closing browser after feature: #<Watir::Browser:0x42055e0>
+D, [2017-04-25T11:45:58+0200 #13512] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T13:44:22+0200 #11204] config.log: Creating metadata storage
+I, [2017-04-25T13:44:22+0200 #11204] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_2-example-line-8
+D, [2017-04-25T13:44:24+0200 #11204] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x482f580 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+I, [2017-04-25T13:44:27+0200 #11204] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_2-example-line-9
+D, [2017-04-25T13:44:27+0200 #11204] config.log: Closing all browsers
+D, [2017-04-25T13:44:27+0200 #11204] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3d48d10>
+D, [2017-04-25T13:44:27+0200 #11204] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T13:44:55+0200 #5556] config.log: Creating metadata storage
+I, [2017-04-25T13:44:56+0200 #5556] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_2-example-line-8
+D, [2017-04-25T13:44:56+0200 #5556] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3a5a308 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+I, [2017-04-25T13:44:59+0200 #5556] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_2-example-line-9
+D, [2017-04-25T13:44:59+0200 #5556] config.log: Closing all browsers
+D, [2017-04-25T13:44:59+0200 #5556] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x42f10e0>
+D, [2017-04-25T13:44:59+0200 #5556] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T13:47:04+0200 #5520] config.log: Creating metadata storage
+I, [2017-04-25T13:47:04+0200 #5520] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T13:47:05+0200 #5520] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3ad8020 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T13:47:09+0200 #5520] config.log: Closing all browsers
+D, [2017-04-25T13:47:09+0200 #5520] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4333aa0>
+D, [2017-04-25T13:47:09+0200 #5520] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T13:51:36+0200 #1336] config.log: Creating metadata storage
+I, [2017-04-25T13:51:36+0200 #1336] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T13:51:37+0200 #1336] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3a7aff0 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T13:51:40+0200 #1336] config.log: Closing all browsers
+D, [2017-04-25T13:51:40+0200 #1336] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x435d218>
+D, [2017-04-25T13:51:40+0200 #1336] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T13:53:43+0200 #1796] config.log: Starting Scenario: features_outline_test.feature-This_is_line_3-example-line-9
+D, [2017-04-25T13:53:43+0200 #1796] config.log: Storage 'metadata' is empty
+D, [2017-04-25T13:53:43+0200 #1796] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T14:04:17+0200 #2408] config.log: Creating metadata storage
+I, [2017-04-25T14:04:17+0200 #2408] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T14:04:17+0200 #2408] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x30a8ba0 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T14:04:21+0200 #2408] config.log: Closing all browsers
+D, [2017-04-25T14:04:21+0200 #2408] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4336fb0>
+D, [2017-04-25T14:04:21+0200 #2408] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T14:46:18+0200 #5500] config.log: Creating metadata storage
+I, [2017-04-25T14:46:18+0200 #5500] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-25T14:46:19+0200 #5500] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3ac65d8 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T14:46:25+0200 #5500] config.log: Screenshot saved: ./screenshots/170425_144624_example02_-_Going_to_a_search_result.png
+I, [2017-04-25T14:46:25+0200 #5500] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-04-25T14:46:27+0200 #5500] config.log: Screenshot saved: ./screenshots/170425_144624_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-04-25T14:46:27+0200 #5500] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-04-25T14:46:29+0200 #5500] config.log: Screenshot saved: ./screenshots/170425_144624_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-04-25T14:46:29+0200 #5500] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-04-25T14:46:31+0200 #5500] config.log: Screenshot saved: ./screenshots/170425_144624_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-04-25T14:46:31+0200 #5500] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-04-25T14:46:33+0200 #5500] config.log: Screenshot saved: ./screenshots/170425_144624_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+I, [2017-04-25T14:46:33+0200 #5500] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T14:46:33+0200 #5500] config.log: Closing all browsers
+D, [2017-04-25T14:46:33+0200 #5500] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x430cba8>
+D, [2017-04-25T14:46:33+0200 #5500] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T14:46:50+0200 #4860] config.log: Creating metadata storage
+I, [2017-04-25T14:46:50+0200 #4860] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T14:46:50+0200 #4860] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x3bfc010 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T14:46:54+0200 #4860] config.log: Closing all browsers
+D, [2017-04-25T14:46:54+0200 #4860] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4431030>
+D, [2017-04-25T14:46:55+0200 #4860] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T15:05:18+0200 #12484] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T15:05:18+0200 #12484] config.log: Storage 'metadata' is empty
+D, [2017-04-25T15:05:18+0200 #12484] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T15:06:54+0200 #6984] config.log: Starting Scenario: features_outline_test.feature-This_is_line_3-example-line-9
+D, [2017-04-25T15:06:54+0200 #6984] config.log: Storage 'metadata' is empty
+D, [2017-04-25T15:06:54+0200 #6984] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T17:12:11+0200 #6204] config.log: Creating metadata storage
+I, [2017-04-25T17:12:11+0200 #6204] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:12:12+0200 #6204] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x4566db0 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T17:12:16+0200 #6204] config.log: Closing all browsers
+D, [2017-04-25T17:12:16+0200 #6204] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x479b728>
+D, [2017-04-25T17:12:16+0200 #6204] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T17:14:20+0200 #6932] config.log: Creating metadata storage
+I, [2017-04-25T17:14:20+0200 #6932] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:14:20+0200 #6932] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x31dfe08 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T17:14:24+0200 #6932] config.log: Closing all browsers
+D, [2017-04-25T17:14:24+0200 #6932] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4473108>
+D, [2017-04-25T17:14:24+0200 #6932] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-25T17:15:05+0200 #1796] config.log: Creating metadata storage
+I, [2017-04-25T17:15:05+0200 #1796] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:15:06+0200 #1796] config.log: Got optional data: {:profile=>#<Selenium::WebDriver::Firefox::Profile:0x2e9d418 @model=nil, @native_events=true, @secure_ssl=false, @untrusted_issuer=true, @load_no_focus_lib=false, @additional_prefs={"network.http.phishy-userpass-length"=>255, "network.http.use-cache"=>false}, @extensions={}>}
+D, [2017-04-25T17:15:09+0200 #1796] config.log: Closing all browsers
+D, [2017-04-25T17:15:09+0200 #1796] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x42288d8>
+D, [2017-04-25T17:15:09+0200 #1796] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:22:48+0200 #8940] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:22:49+0200 #8940] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:22:48+0200 #8940] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:24:04+0200 #11012] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:24:04+0200 #11012] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:24:04+0200 #11012] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:24:51+0200 #800] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:24:51+0200 #800] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:24:51+0200 #800] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:26:20+0200 #104] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:26:20+0200 #104] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:26:20+0200 #104] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:27:02+0200 #2940] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:27:02+0200 #2940] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:27:02+0200 #2940] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:31:17+0200 #11708] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:31:17+0200 #11708] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:31:17+0200 #11708] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:31:56+0200 #8884] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:31:56+0200 #8884] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:31:56+0200 #8884] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:32:49+0200 #14924] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:32:49+0200 #14924] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:32:49+0200 #14924] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:33:08+0200 #9316] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:33:08+0200 #9316] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:33:08+0200 #9316] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:33:23+0200 #7576] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:33:23+0200 #7576] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:33:23+0200 #7576] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:33:43+0200 #3700] config.log: Starting Scenario: features_outline_test.feature_9-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:33:43+0200 #3700] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:33:43+0200 #3700] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:34:53+0200 #3944] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_11
+D, [2017-04-25T17:34:53+0200 #3944] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:34:53+0200 #3944] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:35:38+0200 #2328] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_13
+D, [2017-04-25T17:35:38+0200 #2328] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:35:38+0200 #2328] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:36:50+0200 #14972] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_13
+D, [2017-04-25T17:36:50+0200 #14972] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:36:50+0200 #14972] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:37:10+0200 #3984] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_13
+D, [2017-04-25T17:37:10+0200 #3984] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:37:10+0200 #3984] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:37:21+0200 #6704] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_13
+D, [2017-04-25T17:37:21+0200 #6704] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:37:21+0200 #6704] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:37:35+0200 #12020] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_3-example-line-9
+D, [2017-04-25T17:37:35+0200 #12020] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:37:35+0200 #12020] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:38:06+0200 #8980] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:38:07+0200 #8980] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:38:06+0200 #8980] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:39:28+0200 #416] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:39:28+0200 #416] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:39:28+0200 #416] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:42:02+0200 #2692] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:42:02+0200 #2692] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:42:02+0200 #2692] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:43:01+0200 #7836] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:43:01+0200 #7836] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:43:01+0200 #7836] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:46:01+0200 #15060] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:46:01+0200 #15060] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:46:01+0200 #15060] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:46:19+0200 #9724] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:46:19+0200 #9724] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:46:19+0200 #9724] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:47:38+0200 #1528] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:47:38+0200 #1528] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:47:38+0200 #1528] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:47:52+0200 #13536] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:47:52+0200 #13536] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:47:52+0200 #13536] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:48:13+0200 #10272] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:48:13+0200 #10272] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:48:13+0200 #10272] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:48:24+0200 #7172] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:48:24+0200 #7172] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:48:24+0200 #7172] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-25T17:50:06+0200 #15304] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+D, [2017-04-25T17:50:06+0200 #15304] config.log: Storage 'metadata' is empty
+D, [2017-04-25T17:50:06+0200 #15304] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T11:34:06+0200 #14248] config.log: Creating metadata storage
+I, [2017-04-26T11:34:06+0200 #14248] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T11:34:16+0200 #14248] config.log: Closing all browsers
+D, [2017-04-26T11:34:16+0200 #14248] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ba4f08>
+D, [2017-04-26T11:34:17+0200 #14248] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T11:38:00+0200 #4472] config.log: Creating metadata storage
+I, [2017-04-26T11:38:01+0200 #4472] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T11:38:09+0200 #4472] config.log: Closing all browsers
+D, [2017-04-26T11:38:09+0200 #4472] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ca8e40>
+D, [2017-04-26T11:38:09+0200 #4472] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T11:42:44+0200 #16260] config.log: Creating metadata storage
+I, [2017-04-26T11:42:44+0200 #16260] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T11:42:52+0200 #16260] config.log: Closing all browsers
+D, [2017-04-26T11:42:52+0200 #16260] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3be0470>
+D, [2017-04-26T11:42:52+0200 #16260] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T11:46:09+0200 #15444] config.log: Creating metadata storage
+I, [2017-04-26T11:46:09+0200 #15444] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T11:46:17+0200 #15444] config.log: Screenshot saved: ./screenshots/170426_114617_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T11:46:17+0200 #15444] config.log: Closing all browsers
+D, [2017-04-26T11:46:17+0200 #15444] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b6a588>
+D, [2017-04-26T11:46:17+0200 #15444] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T13:32:38+0200 #1604] config.log: Creating metadata storage
+I, [2017-04-26T13:32:38+0200 #1604] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T13:32:45+0200 #1604] config.log: Screenshot saved: ./screenshots/170426_133245_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T13:32:46+0200 #1604] config.log: Closing all browsers
+D, [2017-04-26T13:32:46+0200 #1604] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c9e928>
+D, [2017-04-26T13:32:46+0200 #1604] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T13:34:13+0200 #16964] config.log: Creating metadata storage
+I, [2017-04-26T13:34:13+0200 #16964] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T13:34:20+0200 #16964] config.log: Screenshot saved: ./screenshots/170426_133420_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T13:34:20+0200 #16964] config.log: Closing all browsers
+D, [2017-04-26T13:34:20+0200 #16964] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c201f0>
+D, [2017-04-26T13:34:21+0200 #16964] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T13:35:42+0200 #3336] config.log: Creating metadata storage
+I, [2017-04-26T13:35:42+0200 #3336] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T13:35:47+0200 #3336] config.log: Screenshot saved: ./screenshots/170426_133547_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T13:35:47+0200 #3336] config.log: Closing all browsers
+D, [2017-04-26T13:35:47+0200 #3336] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c06ab0>
+D, [2017-04-26T13:35:48+0200 #3336] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T13:39:32+0200 #14756] config.log: Creating metadata storage
+I, [2017-04-26T13:39:32+0200 #14756] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T13:39:38+0200 #14756] config.log: Screenshot saved: ./screenshots/170426_133938_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T13:39:38+0200 #14756] config.log: Closing all browsers
+D, [2017-04-26T13:39:38+0200 #14756] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c7ce78>
+D, [2017-04-26T13:39:39+0200 #14756] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T13:57:09+0200 #876] config.log: Creating metadata storage
+I, [2017-04-26T13:57:09+0200 #876] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T13:57:17+0200 #876] config.log: Screenshot saved: ./screenshots/170426_135717_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T13:57:17+0200 #876] config.log: Closing all browsers
+D, [2017-04-26T13:57:17+0200 #876] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c3e7c0>
+D, [2017-04-26T13:57:17+0200 #876] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:05:27+0200 #13420] config.log: Creating metadata storage
+I, [2017-04-26T14:05:27+0200 #13420] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:05:35+0200 #13420] config.log: Screenshot saved: ./screenshots/170426_140535_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T14:05:36+0200 #13420] config.log: Closing all browsers
+D, [2017-04-26T14:05:36+0200 #13420] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3cd6710>
+D, [2017-04-26T14:05:36+0200 #13420] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:08:02+0200 #1804] config.log: Creating metadata storage
+I, [2017-04-26T14:08:02+0200 #1804] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:08:08+0200 #1804] config.log: Closing all browsers
+D, [2017-04-26T14:08:08+0200 #1804] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c065a0>
+D, [2017-04-26T14:08:08+0200 #1804] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:32:25+0200 #6008] config.log: Creating metadata storage
+I, [2017-04-26T14:32:25+0200 #6008] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:32:31+0200 #6008] config.log: Closing all browsers
+D, [2017-04-26T14:32:31+0200 #6008] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b66388>
+D, [2017-04-26T14:32:31+0200 #6008] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:33:05+0200 #8380] config.log: Creating metadata storage
+I, [2017-04-26T14:33:05+0200 #8380] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:33:11+0200 #8380] config.log: Closing all browsers
+D, [2017-04-26T14:33:11+0200 #8380] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3104400>
+D, [2017-04-26T14:33:12+0200 #8380] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:34:08+0200 #1604] config.log: Creating metadata storage
+I, [2017-04-26T14:34:08+0200 #1604] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:34:15+0200 #1604] config.log: Closing all browsers
+D, [2017-04-26T14:34:15+0200 #1604] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b79fa8>
+D, [2017-04-26T14:34:15+0200 #1604] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:34:39+0200 #16168] config.log: Creating metadata storage
+I, [2017-04-26T14:34:39+0200 #16168] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:34:44+0200 #16168] config.log: Closing all browsers
+D, [2017-04-26T14:34:44+0200 #16168] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c12780>
+D, [2017-04-26T14:34:44+0200 #16168] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:35:35+0200 #14972] config.log: Creating metadata storage
+I, [2017-04-26T14:35:36+0200 #14972] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:35:41+0200 #14972] config.log: Closing all browsers
+D, [2017-04-26T14:35:41+0200 #14972] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3103560>
+D, [2017-04-26T14:35:41+0200 #14972] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:36:45+0200 #16320] config.log: Creating metadata storage
+I, [2017-04-26T14:36:45+0200 #16320] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:36:51+0200 #16320] config.log: Closing all browsers
+D, [2017-04-26T14:36:51+0200 #16320] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c90df8>
+D, [2017-04-26T14:36:51+0200 #16320] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:36:55+0200 #7000] config.log: Creating metadata storage
+I, [2017-04-26T14:36:55+0200 #7000] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:37:00+0200 #7000] config.log: Closing all browsers
+D, [2017-04-26T14:37:00+0200 #7000] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b5e300>
+D, [2017-04-26T14:37:00+0200 #7000] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:37:41+0200 #10292] config.log: Creating metadata storage
+I, [2017-04-26T14:37:41+0200 #10292] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:37:49+0200 #10292] config.log: Closing all browsers
+D, [2017-04-26T14:37:49+0200 #10292] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b64db0>
+D, [2017-04-26T14:37:49+0200 #10292] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:38:22+0200 #15208] config.log: Creating metadata storage
+I, [2017-04-26T14:38:22+0200 #15208] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:38:27+0200 #15208] config.log: Closing all browsers
+D, [2017-04-26T14:38:27+0200 #15208] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b56218>
+D, [2017-04-26T14:38:27+0200 #15208] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:42:07+0200 #4300] config.log: Creating metadata storage
+I, [2017-04-26T14:42:08+0200 #4300] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:42:13+0200 #4300] config.log: Closing all browsers
+D, [2017-04-26T14:42:13+0200 #4300] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x30d8690>
+D, [2017-04-26T14:42:13+0200 #4300] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:42:45+0200 #2992] config.log: Creating metadata storage
+I, [2017-04-26T14:42:45+0200 #2992] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:42:51+0200 #2992] config.log: Closing all browsers
+D, [2017-04-26T14:42:51+0200 #2992] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b86908>
+D, [2017-04-26T14:42:51+0200 #2992] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:45:02+0200 #15784] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T14:45:11+0200 #16888] config.log: Creating metadata storage
+I, [2017-04-26T14:45:11+0200 #16888] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:45:19+0200 #16888] config.log: Closing all browsers
+D, [2017-04-26T14:45:19+0200 #16888] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3be0d10>
+D, [2017-04-26T14:45:19+0200 #16888] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-04-26T14:46:02+0200 #8760] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-04-26T14:46:09+0200 #8760] config.log: Screenshot saved: ./screenshots/170426_144609_example02_-_Going_to_a_search_result.png
+D, [2017-04-26T14:46:09+0200 #8760] config.log: Closing all browsers
+D, [2017-04-26T14:46:09+0200 #8760] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4503030>
+D, [2017-04-26T14:46:09+0200 #8760] config.log: Writing storage to: ./storage/metadata.json
+D, [2017-04-26T14:46:02+0200 #8760] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T15:31:06+0200 #15300] config.log: Creating metadata storage
+I, [2017-04-26T15:31:06+0200 #15300] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T15:31:13+0200 #15300] config.log: Screenshot saved: ./screenshots/170426_153113_example01_-_Spritecloud_search.png
+D, [2017-04-26T15:31:13+0200 #15300] config.log: Closing all browsers
+D, [2017-04-26T15:31:13+0200 #15300] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4354f50>
+D, [2017-04-26T15:31:13+0200 #15300] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T15:31:54+0200 #14092] config.log: Creating metadata storage
+I, [2017-04-26T15:31:54+0200 #14092] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T15:32:00+0200 #14092] config.log: Closing all browsers
+D, [2017-04-26T15:32:00+0200 #14092] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3beb4f8>
+D, [2017-04-26T15:32:00+0200 #14092] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T15:35:14+0200 #2396] config.log: Creating metadata storage
+I, [2017-04-26T15:35:14+0200 #2396] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T15:35:22+0200 #2396] config.log: Closing all browsers
+D, [2017-04-26T15:35:22+0200 #2396] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x30ac938>
+D, [2017-04-26T15:35:22+0200 #2396] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T15:36:10+0200 #15552] config.log: Creating metadata storage
+I, [2017-04-26T15:36:10+0200 #15552] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T15:36:16+0200 #15552] config.log: Closing all browsers
+D, [2017-04-26T15:36:16+0200 #15552] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b73b28>
+D, [2017-04-26T15:36:17+0200 #15552] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T15:37:03+0200 #3180] config.log: Creating metadata storage
+I, [2017-04-26T15:37:03+0200 #3180] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T15:37:10+0200 #3180] config.log: Closing all browsers
+D, [2017-04-26T15:37:10+0200 #3180] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3aa4888>
+D, [2017-04-26T15:37:10+0200 #3180] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:21:06+0200 #14892] config.log: Creating metadata storage
+I, [2017-04-26T16:21:06+0200 #14892] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:21:13+0200 #14892] config.log: Closing all browsers
+D, [2017-04-26T16:21:13+0200 #14892] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ba23d0>
+D, [2017-04-26T16:21:13+0200 #14892] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:23:44+0200 #4448] config.log: Creating metadata storage
+I, [2017-04-26T16:23:44+0200 #4448] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:23:51+0200 #4448] config.log: Closing all browsers
+D, [2017-04-26T16:23:51+0200 #4448] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3a20738>
+D, [2017-04-26T16:23:51+0200 #4448] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:24:35+0200 #4004] config.log: Creating metadata storage
+I, [2017-04-26T16:24:35+0200 #4004] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:24:41+0200 #4004] config.log: Closing all browsers
+D, [2017-04-26T16:24:41+0200 #4004] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b8ee40>
+D, [2017-04-26T16:24:41+0200 #4004] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:25:44+0200 #10584] config.log: Creating metadata storage
+I, [2017-04-26T16:25:44+0200 #10584] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:25:50+0200 #10584] config.log: Closing all browsers
+D, [2017-04-26T16:25:50+0200 #10584] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c026d0>
+D, [2017-04-26T16:25:50+0200 #10584] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:28:22+0200 #10684] config.log: Creating metadata storage
+I, [2017-04-26T16:28:22+0200 #10684] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:28:27+0200 #10684] config.log: Screenshot saved: ./screenshots/170426_162827_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:28:27+0200 #10684] config.log: Closing all browsers
+D, [2017-04-26T16:28:27+0200 #10684] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c62298>
+D, [2017-04-26T16:28:27+0200 #10684] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:28:50+0200 #8932] config.log: Creating metadata storage
+I, [2017-04-26T16:28:50+0200 #8932] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:28:55+0200 #8932] config.log: Screenshot saved: ./screenshots/170426_162855_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:28:55+0200 #8932] config.log: Closing all browsers
+D, [2017-04-26T16:28:55+0200 #8932] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b82e10>
+D, [2017-04-26T16:28:55+0200 #8932] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:29:13+0200 #15220] config.log: Creating metadata storage
+I, [2017-04-26T16:29:13+0200 #15220] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:29:20+0200 #15220] config.log: Screenshot saved: ./screenshots/170426_162920_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:29:20+0200 #15220] config.log: Closing all browsers
+D, [2017-04-26T16:29:20+0200 #15220] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bc6310>
+D, [2017-04-26T16:29:20+0200 #15220] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:30:37+0200 #12868] config.log: Creating metadata storage
+I, [2017-04-26T16:30:37+0200 #12868] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:30:43+0200 #12868] config.log: Screenshot saved: ./screenshots/170426_163043_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:30:43+0200 #12868] config.log: Closing all browsers
+D, [2017-04-26T16:30:43+0200 #12868] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b82528>
+D, [2017-04-26T16:30:44+0200 #12868] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:31:43+0200 #1520] config.log: Creating metadata storage
+I, [2017-04-26T16:31:43+0200 #1520] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:31:49+0200 #1520] config.log: Screenshot saved: ./screenshots/170426_163149_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:31:49+0200 #1520] config.log: Closing all browsers
+D, [2017-04-26T16:31:49+0200 #1520] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bace88>
+D, [2017-04-26T16:31:49+0200 #1520] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:32:30+0200 #12508] config.log: Creating metadata storage
+I, [2017-04-26T16:32:30+0200 #12508] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:32:37+0200 #12508] config.log: Screenshot saved: ./screenshots/170426_163237_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:32:37+0200 #12508] config.log: Closing all browsers
+D, [2017-04-26T16:32:37+0200 #12508] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c7fb78>
+D, [2017-04-26T16:32:37+0200 #12508] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:32:54+0200 #1348] config.log: Creating metadata storage
+I, [2017-04-26T16:32:54+0200 #1348] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:33:00+0200 #1348] config.log: Screenshot saved: ./screenshots/170426_163259_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:33:00+0200 #1348] config.log: Closing all browsers
+D, [2017-04-26T16:33:00+0200 #1348] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b96418>
+D, [2017-04-26T16:33:00+0200 #1348] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:34:11+0200 #14624] config.log: Creating metadata storage
+I, [2017-04-26T16:34:11+0200 #14624] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:34:18+0200 #14624] config.log: Screenshot saved: ./screenshots/170426_163418_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:34:18+0200 #14624] config.log: Closing all browsers
+D, [2017-04-26T16:34:18+0200 #14624] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b8b090>
+D, [2017-04-26T16:34:18+0200 #14624] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:34:28+0200 #15988] config.log: Creating metadata storage
+I, [2017-04-26T16:34:28+0200 #15988] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:34:36+0200 #15988] config.log: Screenshot saved: ./screenshots/170426_163436_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:34:36+0200 #15988] config.log: Closing all browsers
+D, [2017-04-26T16:34:36+0200 #15988] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c86f40>
+D, [2017-04-26T16:34:37+0200 #15988] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:35:43+0200 #13332] config.log: Creating metadata storage
+I, [2017-04-26T16:35:43+0200 #13332] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:35:49+0200 #13332] config.log: Screenshot saved: ./screenshots/170426_163549_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:35:50+0200 #13332] config.log: Closing all browsers
+D, [2017-04-26T16:35:50+0200 #13332] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b7ebe0>
+D, [2017-04-26T16:35:50+0200 #13332] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:36:08+0200 #9604] config.log: Creating metadata storage
+I, [2017-04-26T16:36:08+0200 #9604] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:36:13+0200 #9604] config.log: Screenshot saved: ./screenshots/170426_163613_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:36:14+0200 #9604] config.log: Closing all browsers
+D, [2017-04-26T16:36:14+0200 #9604] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bd3210>
+D, [2017-04-26T16:36:14+0200 #9604] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:38:07+0200 #8440] config.log: Creating metadata storage
+I, [2017-04-26T16:38:07+0200 #8440] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:38:14+0200 #8440] config.log: Screenshot saved: ./screenshots/170426_163814_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:38:14+0200 #8440] config.log: Closing all browsers
+D, [2017-04-26T16:38:14+0200 #8440] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ba1e90>
+D, [2017-04-26T16:38:14+0200 #8440] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:38:28+0200 #14988] config.log: Creating metadata storage
+I, [2017-04-26T16:38:28+0200 #14988] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:38:34+0200 #14988] config.log: Screenshot saved: ./screenshots/170426_163834_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:38:34+0200 #14988] config.log: Closing all browsers
+D, [2017-04-26T16:38:34+0200 #14988] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3168858>
+D, [2017-04-26T16:38:35+0200 #14988] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:38:50+0200 #7212] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:39:33+0200 #14412] config.log: Creating metadata storage
+I, [2017-04-26T16:39:33+0200 #14412] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:39:40+0200 #14412] config.log: Screenshot saved: ./screenshots/170426_163940_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:39:40+0200 #14412] config.log: Closing all browsers
+D, [2017-04-26T16:39:40+0200 #14412] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bd5cb8>
+D, [2017-04-26T16:39:40+0200 #14412] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:39:53+0200 #6512] config.log: Creating metadata storage
+I, [2017-04-26T16:39:53+0200 #6512] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:40:00+0200 #6512] config.log: Screenshot saved: ./screenshots/170426_164000_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:40:00+0200 #6512] config.log: Closing all browsers
+D, [2017-04-26T16:40:00+0200 #6512] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x316c4d0>
+D, [2017-04-26T16:40:00+0200 #6512] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:41:30+0200 #4848] config.log: Creating metadata storage
+I, [2017-04-26T16:41:30+0200 #4848] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:41:37+0200 #4848] config.log: Screenshot saved: ./screenshots/170426_164137_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:41:37+0200 #4848] config.log: Closing all browsers
+D, [2017-04-26T16:41:37+0200 #4848] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x310c950>
+D, [2017-04-26T16:41:37+0200 #4848] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:42:20+0200 #7368] config.log: Creating metadata storage
+I, [2017-04-26T16:42:20+0200 #7368] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:42:26+0200 #7368] config.log: Closing all browsers
+D, [2017-04-26T16:42:26+0200 #7368] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b93250>
+D, [2017-04-26T16:42:27+0200 #7368] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:44:18+0200 #2196] config.log: Creating metadata storage
+I, [2017-04-26T16:44:18+0200 #2196] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:44:25+0200 #2196] config.log: Closing all browsers
+D, [2017-04-26T16:44:25+0200 #2196] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3be5de0>
+D, [2017-04-26T16:44:25+0200 #2196] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:49:00+0200 #6172] config.log: Creating metadata storage
+I, [2017-04-26T16:49:00+0200 #6172] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:49:07+0200 #6172] config.log: Screenshot saved: ./screenshots/170426_164907_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:49:07+0200 #6172] config.log: Closing all browsers
+D, [2017-04-26T16:49:07+0200 #6172] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b8fcc8>
+D, [2017-04-26T16:49:08+0200 #6172] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:51:55+0200 #5912] config.log: Creating metadata storage
+I, [2017-04-26T16:51:55+0200 #5912] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:52:02+0200 #5912] config.log: Screenshot saved: ./screenshots/170426_165202_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:52:02+0200 #5912] config.log: Closing all browsers
+D, [2017-04-26T16:52:02+0200 #5912] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3030768>
+D, [2017-04-26T16:52:02+0200 #5912] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:52:31+0200 #2152] config.log: Creating metadata storage
+I, [2017-04-26T16:52:31+0200 #2152] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:52:38+0200 #2152] config.log: Screenshot saved: ./screenshots/170426_165237_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:52:38+0200 #2152] config.log: Closing all browsers
+D, [2017-04-26T16:52:38+0200 #2152] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c2be00>
+D, [2017-04-26T16:52:38+0200 #2152] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:55:32+0200 #15444] config.log: Creating metadata storage
+I, [2017-04-26T16:55:32+0200 #15444] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:55:38+0200 #15444] config.log: Closing all browsers
+D, [2017-04-26T16:55:38+0200 #15444] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bcb110>
+D, [2017-04-26T16:55:38+0200 #15444] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:55:59+0200 #11988] config.log: Creating metadata storage
+I, [2017-04-26T16:55:59+0200 #11988] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:56:06+0200 #11988] config.log: Screenshot saved: ./screenshots/170426_165606_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:56:06+0200 #11988] config.log: Closing all browsers
+D, [2017-04-26T16:56:06+0200 #11988] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3cbe020>
+D, [2017-04-26T16:56:07+0200 #11988] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:56:19+0200 #11920] config.log: Creating metadata storage
+I, [2017-04-26T16:56:19+0200 #11920] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:56:25+0200 #11920] config.log: Screenshot saved: ./screenshots/170426_165625_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:56:25+0200 #11920] config.log: Closing all browsers
+D, [2017-04-26T16:56:25+0200 #11920] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c82cf8>
+D, [2017-04-26T16:56:25+0200 #11920] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:56:45+0200 #1484] config.log: Creating metadata storage
+I, [2017-04-26T16:56:45+0200 #1484] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:56:52+0200 #1484] config.log: Screenshot saved: ./screenshots/170426_165651_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:56:52+0200 #1484] config.log: Closing all browsers
+D, [2017-04-26T16:56:52+0200 #1484] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b83cc8>
+D, [2017-04-26T16:56:52+0200 #1484] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:57:21+0200 #13332] config.log: Creating metadata storage
+I, [2017-04-26T16:57:21+0200 #13332] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:57:26+0200 #13332] config.log: Closing all browsers
+D, [2017-04-26T16:57:26+0200 #13332] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bb80d8>
+D, [2017-04-26T16:57:26+0200 #13332] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T16:57:49+0200 #15328] config.log: Creating metadata storage
+I, [2017-04-26T16:57:49+0200 #15328] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T16:57:57+0200 #15328] config.log: Screenshot saved: ./screenshots/170426_165756_example01_-_Spritecloud_search.png
+D, [2017-04-26T16:57:57+0200 #15328] config.log: Closing all browsers
+D, [2017-04-26T16:57:57+0200 #15328] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c884e8>
+D, [2017-04-26T16:57:57+0200 #15328] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:00:00+0200 #13196] config.log: Creating metadata storage
+I, [2017-04-26T17:00:00+0200 #13196] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:00:06+0200 #13196] config.log: Screenshot saved: ./screenshots/170426_170006_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:00:09+0200 #13196] config.log: Closing all browsers
+D, [2017-04-26T17:00:09+0200 #13196] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c54b10>
+D, [2017-04-26T17:00:09+0200 #13196] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:03:57+0200 #15428] config.log: Creating metadata storage
+I, [2017-04-26T17:03:57+0200 #15428] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:04:04+0200 #15428] config.log: Screenshot saved: ./screenshots/170426_170404_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:04:05+0200 #15428] config.log: Closing all browsers
+D, [2017-04-26T17:04:05+0200 #15428] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3107fd0>
+D, [2017-04-26T17:04:05+0200 #15428] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:19:32+0200 #10888] config.log: Creating metadata storage
+D, [2017-04-26T17:20:58+0200 #10888] config.log: Closing all browsers
+D, [2017-04-26T17:20:58+0200 #10888] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x2ff9718>
+D, [2017-04-26T17:20:58+0200 #10888] config.log: Writing storage to: ./storage/metadata.json
+D, [2017-04-26T17:20:58+0200 #10888] config.log: Closing all browsers
+D, [2017-04-26T17:20:58+0200 #10888] config.log: Closing browser after LapisLazuli::Browser: #<Watir::Browser:0x2ff9718>
+D, [2017-04-26T17:20:59+0200 #10888] config.log: Closing all browsers
+D, [2017-04-26T17:20:59+0200 #10888] config.log: Closing browser after end: #<Watir::Browser:0x2ff9718>
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:28:00+0200 #15024] config.log: Creating metadata storage
+I, [2017-04-26T17:28:00+0200 #15024] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:28:06+0200 #15024] config.log: Screenshot saved: ./screenshots/170426_172806_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:28:06+0200 #15024] config.log: Closing all browsers
+D, [2017-04-26T17:28:06+0200 #15024] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x30dc050>
+D, [2017-04-26T17:28:06+0200 #15024] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:30:18+0200 #9304] config.log: Creating metadata storage
+I, [2017-04-26T17:30:18+0200 #9304] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:30:25+0200 #9304] config.log: Screenshot saved: ./screenshots/170426_173025_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:30:25+0200 #9304] config.log: Closing all browsers
+D, [2017-04-26T17:30:25+0200 #9304] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x30dc218>
+D, [2017-04-26T17:30:25+0200 #9304] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:46:54+0200 #864] config.log: Creating metadata storage
+I, [2017-04-26T17:46:54+0200 #864] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:47:00+0200 #864] config.log: Screenshot saved: ./screenshots/170426_174700_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:47:00+0200 #864] config.log: Closing all browsers
+D, [2017-04-26T17:47:00+0200 #864] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bae700>
+D, [2017-04-26T17:47:00+0200 #864] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:47:44+0200 #14276] config.log: Creating metadata storage
+I, [2017-04-26T17:47:44+0200 #14276] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:47:50+0200 #14276] config.log: Screenshot saved: ./screenshots/170426_174750_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:47:50+0200 #14276] config.log: Closing all browsers
+D, [2017-04-26T17:47:50+0200 #14276] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ba6330>
+D, [2017-04-26T17:47:50+0200 #14276] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:53:38+0200 #16636] config.log: Creating metadata storage
+I, [2017-04-26T17:53:38+0200 #16636] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:53:44+0200 #16636] config.log: Screenshot saved: ./screenshots/170426_175344_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:53:44+0200 #16636] config.log: Closing all browsers
+D, [2017-04-26T17:53:44+0200 #16636] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b8e420>
+D, [2017-04-26T17:53:44+0200 #16636] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-04-26T17:54:21+0200 #14452] config.log: Creating metadata storage
+I, [2017-04-26T17:54:21+0200 #14452] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-04-26T17:54:28+0200 #14452] config.log: Screenshot saved: ./screenshots/170426_175428_example01_-_Spritecloud_search.png
+D, [2017-04-26T17:54:29+0200 #14452] config.log: Closing all browsers
+D, [2017-04-26T17:54:29+0200 #14452] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c06780>
+D, [2017-04-26T17:54:29+0200 #14452] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-01T11:48:24+0200 #11636] config.log: Creating metadata storage
+I, [2017-05-01T11:48:24+0200 #11636] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-01T11:48:32+0200 #11636] config.log: Screenshot saved: ./screenshots/170501_114832_example01_-_Spritecloud_search.png
+I, [2017-05-01T11:48:32+0200 #11636] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-01T11:48:32+0200 #11636] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_13
+D, [2017-05-01T11:48:32+0200 #11636] config.log: Closing all browsers
+D, [2017-05-01T11:48:32+0200 #11636] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x2fee3a8>
+D, [2017-05-01T11:48:32+0200 #11636] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:15:24+0200 #17364] config.log: Creating metadata storage
+I, [2017-05-11T10:15:24+0200 #17364] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:15:40+0200 #17364] config.log: Screenshot saved: ./screenshots/170511_101540_example01_-_Spritecloud_search.png
+I, [2017-05-11T10:15:40+0200 #17364] config.log: Starting Scenario: features_outline_test.feature_10-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-11T10:15:40+0200 #17364] config.log: Starting Scenario: features_outline_test.feature_13-This_is_line_1-This_is_line_13
+D, [2017-05-11T10:15:41+0200 #17364] config.log: Closing all browsers
+D, [2017-05-11T10:15:41+0200 #17364] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ca88a0>
+D, [2017-05-11T10:15:41+0200 #17364] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:16:49+0200 #992] config.log: Creating metadata storage
+I, [2017-05-11T10:16:49+0200 #992] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:16:56+0200 #992] config.log: Screenshot saved: ./screenshots/170511_101656_example01_-_Spritecloud_search.png
+D, [2017-05-11T10:16:57+0200 #992] config.log: Closing all browsers
+D, [2017-05-11T10:16:57+0200 #992] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3130b00>
+D, [2017-05-11T10:16:57+0200 #992] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:23:05+0200 #2956] config.log: Creating metadata storage
+I, [2017-05-11T10:23:05+0200 #2956] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:23:13+0200 #2956] config.log: Screenshot saved: ./screenshots/170511_102313_example01_-_Spritecloud_search.png
+D, [2017-05-11T10:23:14+0200 #2956] config.log: Closing all browsers
+D, [2017-05-11T10:23:14+0200 #2956] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b943c0>
+D, [2017-05-11T10:23:14+0200 #2956] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:23:55+0200 #5164] config.log: Creating metadata storage
+I, [2017-05-11T10:23:55+0200 #5164] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:24:02+0200 #5164] config.log: Screenshot saved: ./screenshots/170511_102402_example01_-_Spritecloud_search.png
+D, [2017-05-11T10:24:03+0200 #5164] config.log: Closing all browsers
+D, [2017-05-11T10:24:03+0200 #5164] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bb7be0>
+D, [2017-05-11T10:24:03+0200 #5164] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:28:21+0200 #8088] config.log: Creating metadata storage
+I, [2017-05-11T10:28:21+0200 #8088] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:28:28+0200 #8088] config.log: Screenshot saved: ./screenshots/170511_102827_example01_-_Spritecloud_search.png
+D, [2017-05-11T10:28:28+0200 #8088] config.log: Closing all browsers
+D, [2017-05-11T10:28:28+0200 #8088] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ac78e0>
+D, [2017-05-11T10:28:28+0200 #8088] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:29:22+0200 #17656] config.log: Creating metadata storage
+I, [2017-05-11T10:29:22+0200 #17656] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:29:29+0200 #17656] config.log: Screenshot saved: ./screenshots/170511_102929_example01_-_Spritecloud_search.png
+D, [2017-05-11T10:29:29+0200 #17656] config.log: Closing all browsers
+D, [2017-05-11T10:29:29+0200 #17656] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bb4070>
+D, [2017-05-11T10:29:30+0200 #17656] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:30:05+0200 #18140] config.log: Creating metadata storage
+I, [2017-05-11T10:30:05+0200 #18140] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:30:13+0200 #18140] config.log: Screenshot saved: ./screenshots/170511_103013_example01_-_Spritecloud_search.png
+D, [2017-05-11T10:30:13+0200 #18140] config.log: Closing all browsers
+D, [2017-05-11T10:30:13+0200 #18140] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bd6990>
+D, [2017-05-11T10:30:14+0200 #18140] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T10:43:48+0200 #3984] config.log: Creating metadata storage
+I, [2017-05-11T10:43:48+0200 #3984] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T10:43:57+0200 #3984] config.log: Closing all browsers
+D, [2017-05-11T10:43:57+0200 #3984] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bb9938>
+D, [2017-05-11T10:43:57+0200 #3984] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:26:05+0200 #17500] config.log: Creating metadata storage
+I, [2017-05-11T11:26:05+0200 #17500] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:26:13+0200 #17500] config.log: Screenshot saved: ./screenshots/170511_112612_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:26:13+0200 #17500] config.log: Closing all browsers
+D, [2017-05-11T11:26:13+0200 #17500] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bc0868>
+D, [2017-05-11T11:26:13+0200 #17500] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:29:54+0200 #17292] config.log: Creating metadata storage
+I, [2017-05-11T11:29:54+0200 #17292] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:30:02+0200 #17292] config.log: Screenshot saved: ./screenshots/170511_113001_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:30:03+0200 #17292] config.log: Closing all browsers
+D, [2017-05-11T11:30:03+0200 #17292] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c72498>
+D, [2017-05-11T11:30:03+0200 #17292] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:30:48+0200 #3712] config.log: Creating metadata storage
+I, [2017-05-11T11:30:48+0200 #3712] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:30:56+0200 #3712] config.log: Screenshot saved: ./screenshots/170511_113055_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:30:56+0200 #3712] config.log: Closing all browsers
+D, [2017-05-11T11:30:56+0200 #3712] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b52ed0>
+D, [2017-05-11T11:30:56+0200 #3712] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:31:47+0200 #10076] config.log: Creating metadata storage
+I, [2017-05-11T11:31:47+0200 #10076] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:31:55+0200 #10076] config.log: Screenshot saved: ./screenshots/170511_113154_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:31:55+0200 #10076] config.log: Closing all browsers
+D, [2017-05-11T11:31:55+0200 #10076] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c967f8>
+D, [2017-05-11T11:31:55+0200 #10076] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:32:29+0200 #15588] config.log: Creating metadata storage
+I, [2017-05-11T11:32:29+0200 #15588] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:32:39+0200 #15588] config.log: Screenshot saved: ./screenshots/170511_113238_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:32:39+0200 #15588] config.log: Closing all browsers
+D, [2017-05-11T11:32:39+0200 #15588] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b3b3f8>
+D, [2017-05-11T11:32:39+0200 #15588] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:33:17+0200 #7132] config.log: Creating metadata storage
+I, [2017-05-11T11:33:17+0200 #7132] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:33:25+0200 #7132] config.log: Screenshot saved: ./screenshots/170511_113324_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:33:25+0200 #7132] config.log: Closing all browsers
+D, [2017-05-11T11:33:25+0200 #7132] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3cdee70>
+D, [2017-05-11T11:33:25+0200 #7132] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:33:48+0200 #1212] config.log: Creating metadata storage
+I, [2017-05-11T11:33:48+0200 #1212] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:33:55+0200 #1212] config.log: Screenshot saved: ./screenshots/170511_113354_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:33:56+0200 #1212] config.log: Closing all browsers
+D, [2017-05-11T11:33:56+0200 #1212] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3d43148>
+D, [2017-05-11T11:33:56+0200 #1212] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:34:08+0200 #15676] config.log: Creating metadata storage
+I, [2017-05-11T11:34:08+0200 #15676] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:34:15+0200 #15676] config.log: Screenshot saved: ./screenshots/170511_113414_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:34:15+0200 #15676] config.log: Closing all browsers
+D, [2017-05-11T11:34:15+0200 #15676] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c7e498>
+D, [2017-05-11T11:34:15+0200 #15676] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:35:17+0200 #5576] config.log: Creating metadata storage
+I, [2017-05-11T11:35:17+0200 #5576] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:35:25+0200 #5576] config.log: Screenshot saved: ./screenshots/170511_113524_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:35:25+0200 #5576] config.log: Closing all browsers
+D, [2017-05-11T11:35:25+0200 #5576] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3cf8508>
+D, [2017-05-11T11:35:26+0200 #5576] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:35:50+0200 #19032] config.log: Creating metadata storage
+I, [2017-05-11T11:35:50+0200 #19032] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:35:57+0200 #19032] config.log: Screenshot saved: ./screenshots/170511_113557_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:35:57+0200 #19032] config.log: Closing all browsers
+D, [2017-05-11T11:35:57+0200 #19032] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4362fa8>
+D, [2017-05-11T11:35:57+0200 #19032] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:36:35+0200 #12012] config.log: Creating metadata storage
+I, [2017-05-11T11:36:35+0200 #12012] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:36:44+0200 #12012] config.log: Screenshot saved: ./screenshots/170511_113643_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:36:44+0200 #12012] config.log: Closing all browsers
+D, [2017-05-11T11:36:44+0200 #12012] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3ce6928>
+D, [2017-05-11T11:36:44+0200 #12012] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:38:19+0200 #17616] config.log: Creating metadata storage
+I, [2017-05-11T11:38:19+0200 #17616] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:38:28+0200 #17616] config.log: Screenshot saved: ./screenshots/170511_113828_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:38:28+0200 #17616] config.log: Closing all browsers
+D, [2017-05-11T11:38:28+0200 #17616] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x44324e8>
+D, [2017-05-11T11:38:29+0200 #17616] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:38:54+0200 #16136] config.log: Creating metadata storage
+I, [2017-05-11T11:38:54+0200 #16136] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:39:04+0200 #16136] config.log: Screenshot saved: ./screenshots/170511_113903_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:39:04+0200 #16136] config.log: Closing all browsers
+D, [2017-05-11T11:39:04+0200 #16136] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3d18728>
+D, [2017-05-11T11:39:04+0200 #16136] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:39:17+0200 #19588] config.log: Creating metadata storage
+I, [2017-05-11T11:39:17+0200 #19588] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:39:26+0200 #19588] config.log: Screenshot saved: ./screenshots/170511_113926_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:39:26+0200 #19588] config.log: Closing all browsers
+D, [2017-05-11T11:39:26+0200 #19588] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3da6850>
+D, [2017-05-11T11:39:26+0200 #19588] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:40:05+0200 #19076] config.log: Creating metadata storage
+I, [2017-05-11T11:40:05+0200 #19076] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:40:14+0200 #19076] config.log: Screenshot saved: ./screenshots/170511_114014_example01_-_Spritecloud_search.png
+D, [2017-05-11T11:40:14+0200 #19076] config.log: Closing all browsers
+D, [2017-05-11T11:40:14+0200 #19076] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x4411f98>
+D, [2017-05-11T11:40:15+0200 #19076] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:42:07+0200 #2768] config.log: Creating metadata storage
+I, [2017-05-11T11:42:07+0200 #2768] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:42:11+0200 #2768] config.log: Storage 'metadata' is empty
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:42:55+0200 #4412] config.log: Creating metadata storage
+I, [2017-05-11T11:42:55+0200 #4412] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:42:59+0200 #4412] config.log: Storage 'metadata' is empty
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:44:29+0200 #4688] config.log: Creating metadata storage
+I, [2017-05-11T11:44:29+0200 #4688] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:44:33+0200 #4688] config.log: Storage 'metadata' is empty
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:47:16+0200 #20336] config.log: Creating metadata storage
+I, [2017-05-11T11:47:16+0200 #20336] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:47:21+0200 #20336] config.log: Storage 'metadata' is empty
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:48:57+0200 #9128] config.log: Creating metadata storage
+I, [2017-05-11T11:48:57+0200 #9128] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:49:02+0200 #9128] config.log: Storage 'metadata' is empty
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:51:56+0200 #20144] config.log: Creating metadata storage
+I, [2017-05-11T11:51:56+0200 #20144] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:52:08+0200 #20144] config.log: Closing all browsers
+D, [2017-05-11T11:52:08+0200 #20144] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x292faa0>
+D, [2017-05-11T11:52:08+0200 #20144] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:52:36+0200 #16620] config.log: Creating metadata storage
+I, [2017-05-11T11:52:36+0200 #16620] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:52:48+0200 #16620] config.log: Closing all browsers
+D, [2017-05-11T11:52:48+0200 #16620] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bd5bf8>
+D, [2017-05-11T11:52:48+0200 #16620] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:56:32+0200 #4620] config.log: Creating metadata storage
+I, [2017-05-11T11:56:32+0200 #4620] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:56:45+0200 #4620] config.log: Closing all browsers
+D, [2017-05-11T11:56:45+0200 #4620] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3d5ab00>
+D, [2017-05-11T11:56:45+0200 #4620] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T11:57:47+0200 #16168] config.log: Creating metadata storage
+I, [2017-05-11T11:57:48+0200 #16168] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T11:57:59+0200 #16168] config.log: Closing all browsers
+D, [2017-05-11T11:57:59+0200 #16168] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3bcb0f8>
+D, [2017-05-11T11:58:00+0200 #16168] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:01:36+0200 #7312] config.log: Creating metadata storage
+I, [2017-05-11T12:01:36+0200 #7312] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:01:43+0200 #7312] config.log: Closing all browsers
+D, [2017-05-11T12:01:43+0200 #7312] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3dd2b30>
+D, [2017-05-11T12:01:43+0200 #7312] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:02:59+0200 #20180] config.log: Creating metadata storage
+I, [2017-05-11T12:02:59+0200 #20180] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:03:10+0200 #20180] config.log: Closing all browsers
+D, [2017-05-11T12:03:10+0200 #20180] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c9def0>
+D, [2017-05-11T12:03:11+0200 #20180] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:03:19+0200 #14280] config.log: Creating metadata storage
+I, [2017-05-11T12:03:19+0200 #14280] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:03:30+0200 #14280] config.log: Closing all browsers
+D, [2017-05-11T12:03:30+0200 #14280] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3d9a070>
+D, [2017-05-11T12:03:30+0200 #14280] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:03:35+0200 #11424] config.log: Creating metadata storage
+I, [2017-05-11T12:03:35+0200 #11424] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:03:46+0200 #11424] config.log: Closing all browsers
+D, [2017-05-11T12:03:46+0200 #11424] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b52a50>
+D, [2017-05-11T12:03:46+0200 #11424] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:06:36+0200 #13004] config.log: Creating metadata storage
+I, [2017-05-11T12:06:36+0200 #13004] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:06:43+0200 #13004] config.log: Closing all browsers
+D, [2017-05-11T12:06:43+0200 #13004] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b242e0>
+D, [2017-05-11T12:06:43+0200 #13004] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:06:59+0200 #15112] config.log: Creating metadata storage
+I, [2017-05-11T12:06:59+0200 #15112] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:07:06+0200 #15112] config.log: Closing all browsers
+D, [2017-05-11T12:07:06+0200 #15112] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3af3278>
+D, [2017-05-11T12:07:06+0200 #15112] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:08:23+0200 #19444] config.log: Creating metadata storage
+I, [2017-05-11T12:08:23+0200 #19444] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:08:34+0200 #19444] config.log: Closing all browsers
+D, [2017-05-11T12:08:34+0200 #19444] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c9e7a8>
+D, [2017-05-11T12:08:34+0200 #19444] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:10:16+0200 #18028] config.log: Creating metadata storage
+I, [2017-05-11T12:10:16+0200 #18028] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:10:27+0200 #18028] config.log: Closing all browsers
+D, [2017-05-11T12:10:27+0200 #18028] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3b8bf90>
+D, [2017-05-11T12:10:28+0200 #18028] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T12:11:43+0200 #6036] config.log: Creating metadata storage
+I, [2017-05-11T12:11:43+0200 #6036] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T12:11:54+0200 #6036] config.log: Closing all browsers
+D, [2017-05-11T12:11:54+0200 #6036] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3c2cee0>
+D, [2017-05-11T12:11:55+0200 #6036] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T16:33:42+0200 #14764] config.log: Creating metadata storage
+I, [2017-05-11T16:33:42+0200 #14764] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T16:33:54+0200 #14764] config.log: Closing all browsers
+D, [2017-05-11T16:33:54+0200 #14764] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x3beac40>
+D, [2017-05-11T16:33:55+0200 #14764] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T16:34:09+0200 #12048] config.log: Creating metadata storage
+I, [2017-05-11T16:34:09+0200 #12048] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T16:34:18+0200 #12048] config.log: Closing all browsers
+D, [2017-05-11T16:34:18+0200 #12048] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x46d13c0>
+D, [2017-05-11T16:34:19+0200 #12048] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T16:34:49+0200 #3780] config.log: Creating metadata storage
+I, [2017-05-11T16:34:49+0200 #3780] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T16:34:55+0200 #3780] config.log: Screenshot saved: ./screenshots/170511_163455_example01_-_Spritecloud_search.png
+D, [2017-05-11T16:34:55+0200 #3780] config.log: Closing all browsers
+D, [2017-05-11T16:34:55+0200 #3780] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x2db56f8>
+D, [2017-05-11T16:34:55+0200 #3780] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T16:35:09+0200 #18040] config.log: Creating metadata storage
+I, [2017-05-11T16:35:09+0200 #18040] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T16:35:19+0200 #18040] config.log: Closing all browsers
+D, [2017-05-11T16:35:19+0200 #18040] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x2e103e8>
+D, [2017-05-11T16:35:19+0200 #18040] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T16:41:22+0200 #13884] config.log: Creating metadata storage
+I, [2017-05-11T16:41:22+0200 #13884] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T16:41:31+0200 #13884] config.log: Closing all browsers
+D, [2017-05-11T16:41:31+0200 #13884] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x2e42c20>
+D, [2017-05-11T16:41:31+0200 #13884] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-11T16:41:50+0200 #17020] config.log: Creating metadata storage
+I, [2017-05-11T16:41:50+0200 #17020] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+D, [2017-05-11T16:41:59+0200 #17020] config.log: Closing all browsers
+D, [2017-05-11T16:41:59+0200 #17020] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x2e332c0>
+D, [2017-05-11T16:41:59+0200 #17020] config.log: Writing storage to: ./storage/metadata.json
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T16:46:03+0200 #5828] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-15T16:46:03+0200 #5828] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_1-This_is_line_13
+D, [2017-05-15T16:46:03+0200 #5828] config.log: Storage 'metadata' is empty
+D, [2017-05-15T16:46:03+0200 #5828] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T16:46:16+0200 #7364] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-15T16:46:16+0200 #7364] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_1-This_is_line_13
+D, [2017-05-15T16:46:16+0200 #7364] config.log: Storage 'metadata' is empty
+D, [2017-05-15T16:46:16+0200 #7364] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T16:46:29+0200 #14868] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-15T16:46:29+0200 #14868] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_1-This_is_line_13
+D, [2017-05-15T16:46:29+0200 #14868] config.log: Storage 'metadata' is empty
+D, [2017-05-15T16:46:29+0200 #14868] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T16:46:45+0200 #5028] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-15T16:46:45+0200 #5028] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_1-This_is_line_13
+D, [2017-05-15T16:46:45+0200 #5028] config.log: Storage 'metadata' is empty
+D, [2017-05-15T16:46:44+0200 #5028] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T16:54:31+0200 #7356] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_1-This_is_line_4-example-line-10
+I, [2017-05-15T16:54:31+0200 #7356] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_1-This_is_line_13
+D, [2017-05-15T16:54:31+0200 #7356] config.log: Storage 'metadata' is empty
+D, [2017-05-15T16:54:31+0200 #7356] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:00:53+0200 #15012] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:00:53+0200 #15012] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:00:53+0200 #15012] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:00:53+0200 #15012] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:01:57+0200 #8856] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:01:57+0200 #8856] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:01:57+0200 #8856] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:01:57+0200 #8856] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:09:22+0200 #14328] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:09:22+0200 #14328] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:09:22+0200 #14328] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:09:22+0200 #14328] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:09:57+0200 #11808] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:09:58+0200 #11808] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:09:58+0200 #11808] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:09:57+0200 #11808] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:13:40+0200 #9064] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:13:40+0200 #9064] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:13:41+0200 #9064] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:13:40+0200 #9064] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:14:25+0200 #11612] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:14:25+0200 #11612] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:14:25+0200 #11612] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:14:24+0200 #11612] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:17:09+0200 #14724] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:17:09+0200 #14724] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:17:09+0200 #14724] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:17:09+0200 #14724] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:17:41+0200 #4928] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:17:41+0200 #4928] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:17:41+0200 #4928] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:17:41+0200 #4928] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:18:08+0200 #11996] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:18:08+0200 #11996] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:18:08+0200 #11996] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:18:08+0200 #11996] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:18:59+0200 #14400] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:18:59+0200 #14400] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:18:59+0200 #14400] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:18:59+0200 #14400] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:19:29+0200 #14772] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:19:29+0200 #14772] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:19:29+0200 #14772] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:19:29+0200 #14772] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-15T17:24:27+0200 #3940] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-15T17:24:27+0200 #3940] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-15T17:24:27+0200 #3940] config.log: Storage 'metadata' is empty
+D, [2017-05-15T17:24:27+0200 #3940] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-16T10:34:52+0200 #14064] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-16T10:34:52+0200 #14064] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-16T10:34:52+0200 #14064] config.log: Storage 'metadata' is empty
+D, [2017-05-16T10:34:52+0200 #14064] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+I, [2017-05-16T10:35:23+0200 #13248] config.log: Starting Scenario: features_outline_test.feature_11-This_is_line_2-This_is_line_5-example-line-11
+I, [2017-05-16T10:35:23+0200 #13248] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
+D, [2017-05-16T10:35:23+0200 #13248] config.log: Storage 'metadata' is empty
+D, [2017-05-16T10:35:23+0200 #13248] config.log: Creating metadata storage

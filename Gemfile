@@ -14,3 +14,4 @@ gem 'lapis_lazuli'
 #
 # gem 'watir-webdriver'
 # gem 'cucumber', '1.3.20'
+#gem 'cucumber-core', :path => '../cucumber-core-1.5.0/'

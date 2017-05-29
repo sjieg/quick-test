@@ -1,0 +1,149 @@
+[
+  {
+    "uri": "features/example.feature",
+    "id": "example-feature",
+    "keyword": "Feature",
+    "name": "Example Feature",
+    "description": "When I want to learn how to make test cases\nAs a user of the test automation tool\nI want to run and adjust the tests below",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@example",
+        "line": 1
+      },
+      {
+        "name": "@p",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "example-feature;example01---spritecloud-search",
+        "keyword": "Scenario",
+        "name": "example01 - Spritecloud search",
+        "description": "",
+        "line": 8,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@example",
+            "line": 1
+          },
+          {
+            "name": "@p",
+            "line": 1
+          },
+          {
+            "name": "@example01",
+            "line": 7
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95202973
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "the user navigates to \"blog\"",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5983408625
+            },
+            "after": [
+              {
+                "output": [
+                  "imastep"
+                ],
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:24"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 26864
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "the user searches for \"lapis lazuli\"",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/interaction_steps.rb:28"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "Expected [object Undefined] undefined to be a string (Selenium::WebDriver::Error::InvalidArgumentError)\n./features/step_definitions/interaction_steps.rb:34:in `/^the user searches for \"(.*?)\"$/'\nfeatures/example.feature:10:in `When the user searches for \"lapis lazuli\"'",
+              "duration": 699783309
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:24"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "text \"Open Source\" should display",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/validation_steps.rb:8"
+            },
+            "result": {
+              "status": "skipped"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:24"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "embeddings": [
+              {
+                "mime_type": "application/json",
+                "data": "eyJpdGVtcyI6W3sic2NyZWVuc2hvdCI6Ii4vc2NyZWVuc2hvdHMvMTcwNDI2XzE3NTQyOF9leGFtcGxlMDFfLV9TcHJpdGVjbG91ZF9zZWFyY2gucG5nIn1dfQ=="
+              }
+            ],
+            "output": [
+              "#===========================================================#",
+              "Scenario:: example01 - Spritecloud search",
+              "#===========================================================#"
+            ],
+            "match": {
+              "location": "E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223222473
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

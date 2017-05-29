@@ -1,0 +1,287 @@
+--- !ruby/object:Cucumber::Core::Test::Case
+      test_steps:
+      - !ruby/object:Cucumber::Core::Test::Step
+        source:
+        - &19 !ruby/object:Cucumber::Core::Ast::Feature
+          language: &11 !ruby/marshalable:Cucumber::Core::Ast::LanguageDelegator
+            :__v2__:
+            - :@iso_code
+            ? - en
+            : !ruby/object:Gherkin::Dialect
+              spec:
+                and:
+                - "* "
+                - 'And '
+                background:
+                - Background
+                but:
+                - "* "
+                - 'But '
+                examples:
+                - Examples
+                - Scenarios
+                feature:
+                - Feature
+                - Business Need
+                - Ability
+                given:
+                - "* "
+                - 'Given '
+                name: English
+                native: English
+                scenario:
+                - Scenario
+                scenarioOutline:
+                - Scenario Outline
+                - Scenario Template
+                then:
+                - "* "
+                - 'Then '
+                when:
+                - "* "
+                - 'When '
+          location: &16 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+            file: features/example.feature
+            lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+              data: !ruby/object:Set
+                hash:
+                  2: true
+          background: !ruby/object:Cucumber::Core::Ast::EmptyBackground {}
+          comments: []
+          tags:
+          - !ruby/object:Cucumber::Core::Ast::Tag
+            location: &1 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+              file: features/example.feature
+              lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                data: !ruby/object:Set
+                  hash:
+                    1: true
+            name: "@example"
+            all_locations:
+            - *1
+          - !ruby/object:Cucumber::Core::Ast::Tag
+            location: &2 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+              file: features/example.feature
+              lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                data: !ruby/object:Set
+                  hash:
+                    1: true
+            name: "@p"
+            all_locations:
+            - *2
+          keyword: Feature
+          name: Example Feature
+          description: |-
+            When I want to learn how to make test cases
+            As a user of the test automation tool
+            I want to run and adjust the tests below
+          feature_elements:
+          - &17 !ruby/object:Cucumber::Core::Ast::Scenario
+            location: &15 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+              file: features/example.feature
+              lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                data: !ruby/object:Set
+                  hash:
+                    14: true
+            comments:
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &3 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      6: true
+              value: "#"
+              all_locations:
+              - *3
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &4 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      7: true
+              value: "##  @example01"
+              all_locations:
+              - *4
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &5 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      8: true
+              value: "##  Scenario: example01 - Spritecloud search"
+              all_locations:
+              - *5
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &6 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      9: true
+              value: '##    Given the user navigates to "blog"'
+              all_locations:
+              - *6
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &7 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      10: true
+              value: '##    When the user searches for "lapis lazuli"'
+              all_locations:
+              - *7
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &8 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      11: true
+              value: '##    Then text "Open Source" should display'
+              all_locations:
+              - *8
+            - !ruby/object:Cucumber::Core::Ast::Comment
+              location: &9 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      12: true
+              value: "##"
+              all_locations:
+              - *9
+            tags:
+            - !ruby/object:Cucumber::Core::Ast::Tag
+              location: &10 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      13: true
+              name: "@example02"
+              all_locations:
+              - *10
+            keyword: Scenario
+            name: example02 - Going to a search result
+            description: ''
+            raw_steps:
+            - &20 !ruby/object:Cucumber::Core::Ast::Step
+              language: *11
+              location: &12 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      15: true
+              comments: []
+              keyword: 'Given '
+              name: the user has searched for "lapis lazuli" on "blog"
+              multiline_arg: !ruby/object:Cucumber::Core::Ast::EmptyMultilineArgument {}
+              all_locations:
+              - *12
+            - &21 !ruby/object:Cucumber::Core::Ast::Step
+              language: *11
+              location: &13 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      16: true
+              comments: []
+              keyword: 'When '
+              name: the user clicks on link "/announcing-lapislazuli/"
+              multiline_arg: !ruby/object:Cucumber::Core::Ast::EmptyMultilineArgument {}
+              all_locations:
+              - *13
+            - &22 !ruby/object:Cucumber::Core::Ast::Step
+              language: *11
+              location: &14 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+                file: features/example.feature
+                lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+                  data: !ruby/object:Set
+                    hash:
+                      17: true
+              comments: []
+              keyword: 'Then '
+              name: text "Let's bark about testing" should display
+              multiline_arg: !ruby/object:Cucumber::Core::Ast::EmptyMultilineArgument {}
+              all_locations:
+              - *14
+            all_locations:
+            - *15
+            - *10
+            - *3
+            - *4
+            - *5
+            - *6
+            - *7
+            - *8
+            - *9
+          all_locations:
+          - *16
+          - *1
+          - *2
+        - *17
+        - !ruby/object:Cucumber::Hooks::BeforeHook
+          location: &18 !ruby/struct:Cucumber::Core::Ast::Location::Precise
+            file: E:/Projects/lapis-lazuli/lib/lapis_lazuli/cucumber.rb
+            lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+              data: !ruby/object:Set
+                hash:
+                  9: true
+        action: !ruby/object:Cucumber::Core::Test::UnskippableAction
+          location: *18
+          block: !ruby/object:Proc {}
+          timer: !ruby/object:Cucumber::Core::Test::Timer
+            start_time: 89910639810686
+      - !ruby/object:Cucumber::Core::Test::Step
+        source:
+        - *19
+        - *17
+        - *20
+        action: !ruby/object:Cucumber::Core::Test::Action
+          location: !ruby/struct:Cucumber::Core::Ast::Location::Precise
+            file: features/step_definitions/precondition_steps.rb
+            lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+              data: !ruby/object:Set
+                hash:
+                  9: true
+          block: !ruby/object:Proc {}
+          timer: !ruby/object:Cucumber::Core::Test::Timer
+            start_time: 89910733608032
+      - !ruby/object:Cucumber::Core::Test::Step
+        source:
+        - *19
+        - *17
+        - *21
+        action: !ruby/object:Cucumber::Core::Test::Action
+          location: !ruby/struct:Cucumber::Core::Ast::Location::Precise
+            file: features/step_definitions/interaction_steps.rb
+            lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+              data: !ruby/object:Set
+                hash:
+                  39: true
+          block: !ruby/object:Proc {}
+          timer: !ruby/object:Cucumber::Core::Test::Timer {}
+      - !ruby/object:Cucumber::Core::Test::Step
+        source:
+        - *19
+        - *17
+        - *22
+        action: !ruby/object:Cucumber::Core::Test::Action
+          location: !ruby/struct:Cucumber::Core::Ast::Location::Precise
+            file: features/step_definitions/validation_steps.rb
+            lines: !ruby/struct:Cucumber::Core::Ast::Location::Lines
+              data: !ruby/object:Set
+                hash:
+                  8: true
+          block: !ruby/object:Proc {}
+          timer: !ruby/object:Cucumber::Core::Test::Timer {}
+      source:
+      - *19
+      - *17
+      around_hooks: []

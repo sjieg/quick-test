@@ -20,7 +20,7 @@ I want to run and adjust the tests below
   Scenario Outline: example03 - checking multiple pages for the logo with examples
     Given the user navigates to "<page>"
     When the user clicks on the spritecloud logo
-    Then the user should be on page "tesing"
+    Then the user should be on page "about-us"
     Examples:
       | page               |
       | blog               |
@@ -33,7 +33,7 @@ I want to run and adjust the tests below
   Scenario Outline: example03 - checking multiple pages for the logo with scenarios
     Given the user navigates to "<page>"
     When the user clicks on the spritecloud logo
-    Then the user should be on page "tesing"
+    Then the user should be on page "testing"
     Scenarios:
       | page               |
       | blog               |

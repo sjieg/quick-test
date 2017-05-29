@@ -1525,3 +1525,22 @@ I, [2017-05-16T10:35:23+0200 #13248] config.log: Starting Scenario: features_out
 I, [2017-05-16T10:35:23+0200 #13248] config.log: Starting Scenario: features_outline_test.feature_14-This_is_line_2-This_is_line_14
 D, [2017-05-16T10:35:23+0200 #13248] config.log: Storage 'metadata' is empty
 D, [2017-05-16T10:35:23+0200 #13248] config.log: Creating metadata storage
+Logging to './logs/config.log' initialized with level INFO.
+Logging to './logs/config.log' initialized with level INFO.
+D, [2017-05-29T14:11:36+0200 #31255] config.log: Creating metadata storage
+I, [2017-05-29T14:11:36+0200 #31255] config.log: Starting Scenario: features_example.feature_8-Example_Feature-example01_-_Spritecloud_search
+I, [2017-05-29T14:11:47+0200 #31255] config.log: Starting Scenario: features_example.feature_14-Example_Feature-example02_-_Going_to_a_search_result
+D, [2017-05-29T14:12:04+0200 #31255] config.log: Caught timeout: timed out after 10 seconds
+E, [2017-05-29T14:12:04+0200 #31255] config.log: Error in wait - timed out after 10 seconds with selectors: [{:html=>/Let's bark about testing/i, :filter_by=>:present?}] [ https://spritecloud.com/2015/03/announcing-lapislazuli/ ]
+D, [2017-05-29T14:12:05+0200 #31255] config.log: Screenshot saved: ./screenshots/170529_141204_example02_-_Going_to_a_search_result.png
+I, [2017-05-29T14:12:05+0200 #31255] config.log: Starting Scenario: features_example.feature_26-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-blog
+D, [2017-05-29T14:12:07+0200 #31255] config.log: Screenshot saved: ./screenshots/170529_141204_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_1_.png
+I, [2017-05-29T14:12:07+0200 #31255] config.log: Starting Scenario: features_example.feature_27-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_examples-home
+D, [2017-05-29T14:12:11+0200 #31255] config.log: Screenshot saved: ./screenshots/170529_141204_example03_-_checking_multiple_pages_for_the_logo_with_examples_Examples_2_.png
+I, [2017-05-29T14:12:11+0200 #31255] config.log: Starting Scenario: features_example.feature_39-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-blog
+D, [2017-05-29T14:12:13+0200 #31255] config.log: Screenshot saved: ./screenshots/170529_141204_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_1_.png
+I, [2017-05-29T14:12:13+0200 #31255] config.log: Starting Scenario: features_example.feature_40-Example_Feature-example03_-_checking_multiple_pages_for_the_logo_with_scenarios-home
+D, [2017-05-29T14:12:16+0200 #31255] config.log: Screenshot saved: ./screenshots/170529_141204_example03_-_checking_multiple_pages_for_the_logo_with_scenarios_Scenarios_2_.png
+D, [2017-05-29T14:12:16+0200 #31255] config.log: Closing all browsers
+D, [2017-05-29T14:12:16+0200 #31255] config.log: Closing browser after exit event trigger: #<Watir::Browser:0x0000000418a778>
+D, [2017-05-29T14:12:16+0200 #31255] config.log: Writing storage to: ./storage/metadata.json

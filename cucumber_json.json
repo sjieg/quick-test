@@ -1,0 +1,412 @@
+require 'pathname'
+
+require 'regressinator-worker/asset'
+
+##
+# Convert a cucumber output to screenshot assets
+#
+# input: {"cucumber_json" : [....]}
+# output: {"screenshots" : [...]}
+#
+module RegressinatorWorker::Task
+module Screenshots
+def self.desc
+"Scans Cucumber output for screenshots and converts them into assets"
+end
+
+def self.options
+{
+"cucumber_json" => {
+:desc => "Asset URI for cucumber output",
+:required => false,
+:type => :string
+},
+"repository" => {
+:desc => "Local Asset URL for screenshot data",
+:required => true,
+:type => :string
+},
+"images" => {
+:desc => "Images created during a test run, as a hash of of file names to creation times (in UTC usec timestamps)",
+:required => false,
+:type => :hash,
+},
+"portal_json" => {
+:desc => "Asset URI for portal importer output.",
+:required => false,
+:type => :string,
+},
+}
+end
+
+def self.run(settings, assets, log)
+# Require cucumber output, at minimum
+if not settings.include? "cucumber_json"
+log.info "Screenshots: missing 'cucumber_json', not doing anything."
+return {"screenshots" => []}
+end
+
+json_assets = settings["cucumber_json"]
+if not json_assets.is_a? Array
+json_assets = [json_assets]
+end
+
+# We may or may not have images passed to us.
+img = settings.fetch("images", {})
+repository = assets.get(settings["repository"])
+images = {}
+img.each do |fname, data|
+cname = Screenshots.canonical_path(repository, fname)
+if images.include? cname
+# XXX should never happen, nor is it clear what to do if it does.
+log.error("Duplicate image file: #{cname}")
+end
+images[cname] = data
+end
+
+# Extract portal importer json, if we have it. From that, we can get
+# precise execution times for steps.
+# This is mostly due to https://github.com/cucumber/cucumber/issues/806
+# which unfortunately means cucumber_json's data is not all reliable.
+mappings = {}
+if settings.include? "portal_json"
+# Get step execution timestamps
+data = assets.get_contents(settings["portal_json"])
+begin
+portal_json = JSON.parse(data)
+
+# With portal JSON, we can match images scenario name, using
+# the old portal logic.
+Screenshots.match_scenario_names(mappings, portal_json, images)
+rescue StandardError => err
+# JSON parse error
+log.exception("Error processing portal JSON", err)
+end
+
+else
+log.debug 'Cucumber 2.x detected, rewriting cucumber_json'
+# If there is no portal JSON, we can match by information embedded into
+# the cucumber JSON. Note that matching both by portal JSON and cucumber
+# JSON will lead to issues with cucumber 1.3's handling of embedding.
+# FIXME This is currently unsupported because we don't use cucumber 2
+#       yet. The code called below will need to adjust to mapping images
+#       to a hierarchical path of file_colon_line.
+Screenshots.match_cucumber_json(mappings, settings, assets, json_assets, images, log)
+end
+
+# Now we'll likely have multiple locations per file. We'll merge and de-
+# duplicate what we can.
+Screenshots.deduplicate(mappings)
+
+# In the last processing step, let's register every screenshot as an asset.
+asset_mapped = {}
+mappings.each do |fname, data|
+uri = assets.from_file(fname, RegressinatorWorker::AssetType::IMAGE)
+asset_mapped[uri] = data
+end
+
+return {"screenshots" => asset_mapped}
+end
+
+
+##
+# Given a path root and a relative filename, returns a canonical path, i.e.
+# an absolute and cleaned up path.
+def self.canonical_path(root, fname)
+pn = Pathname.new(fname)
+if not pn.absolute?
+pn = Pathname.new(File.join(root, fname))
+end
+return pn.cleanpath.to_s
+end
+
+
+##
+# Scans Hash/Arrays recusively for screenshot information
+# Decodes Base64 application/json embeddings
+# {"mime_type" :"application/json","data" : "...."}
+#
+# Example:
+#  Screenshots.scan([{
+#      "other info" : [],
+#      "screenshot" : "/some/path/to/the/file.png"
+#    }])
+#  => ["/some/path/to/the/file.png"]
+def self.scan_json(root, data, feature_uri, line, mappings = {}, log)
+# If the data is an Array, just iterate over its elements
+if data.is_a? Array
+data.each do |sub|
+mappings = Screenshots.scan_json(root, sub, feature_uri, line, mappings, log)
+end
+end
+
+# Hashes may be treated differently depending on contents.
+if data.is_a? Hash
+# Does it have a screenshot? Then it's an inner embedding
+if data.include? "screenshot"
+fname = Screenshots.canonical_path(root, data["screenshot"])
+locs = mappings.fetch(fname, [])
+locs << {
+:file_colon_line => "#{feature_uri}:#{line}",
+}
+mappings[fname] = locs
+end
+
+# Does it include an embedding? Then it's a step
+if data.include? "embeddings" and data["embeddings"].is_a? Array
+data["embeddings"].each do |embedding|
+if embedding.include? "mime_type" and embedding["mime_type"] == "application/json"
+begin
+embed_data = JSON.parse(Base64.decode64(embedding["data"]))
+mappings = Screenshots.scan_json(root, embed_data, feature_uri, data["line"], mappings, log)
+rescue StandardError => err
+# JSON parse error
+log.exception("Error processing cucumber JSON:", err)
+end
+end
+end
+end
+
+# Otherwise, just iterate into it.
+data.each do |key, sub|
+mappings = Screenshots.scan_json(root, sub, feature_uri, line, mappings, log)
+end
+end
+
+return mappings
+end
+
+
+##
+# Remove from the images hash all the images that already have mappings
+def self.prune_images(mappings, images)
+mappings.keys.each do |fname|
+images.delete(fname)
+end
+end
+
+
+##
+# Helper functon for building a screenshot name pattern from test
+# scenario information. XXX This must be kept in sync with the portal's
+# idea of screenshot matching.
+def self.get_screenshot_pattern(feature_timestamp, scenario_name)
+#FIXME: We want to know the screenshot_filename of a failed step but this is not stored e.g. by cucumber-spriteCloud
+#FIXME: We currently only know the date and scenario name
+#FIXME: Currently we check with a regular expression if a screenshot of that scenario for that day is available, and show it.
+#FIXME: Example screenshot name: 130323_082730_corp06_-_Spotlight_widget.jpg
+screenshot_name = scenario_name
+screenshot_name = screenshot_name.gsub /^.*(\\|\/)/, ''
+# Finally, replace all non alphanumeric, underscore or periods with underscore
+screenshot_name = screenshot_name.gsub /[^\w\.\-]/, '_'
+# Lets 'sqeeze all the multiple '_'s to just one '_' each :)
+screenshot_name = screenshot_name.squeeze('_')
+# Replace non-ASCII characters with a wildcard ('?')
+screenshot_name = screenshot_name.gsub(/[\u0080-\u00ff]/, '?')
+# We only know the date, not the specific time of the step itself
+screenshot_name = feature_timestamp.strftime('%y%m%d_%H') + "????_" + screenshot_name + ".*"
+
+return screenshot_name
+end
+
+
+##
+# Helper function for recursively parsing portal_json
+def self.process_scenario(mappings, testrun, feature, parent, current, images, key = nil)
+# Recurse into children first. In scenario outlines that means we'll
+# have a chance to let individual example scenarios map to an image first.
+# Counting with an int to recognise the number of Scenario Outlines.
+i = 1
+current["children_attributes"].each do |child|
+Screenshots.process_scenario(mappings, testrun, feature, current, child, images, i)
+i += 1
+end
+
+# Regular scenarios will more likely match in step results
+current["step_results_attributes"].each_with_index do |step, index|
+# Try times in order from most likely to least likely to match
+utc_time = Time.parse(testrun["executed"])
+local_time = utc_time.getlocal
+
+matched = false
+
+puts "#{step["file_colon_line"]} <-> #{current["file_colon_line"]} <-> #{parent["file_colon_line"]}/#{parent["steplist_type"]}"
+puts "#{step["summary"]} <-> #{current["name"]} <-> #{parent["name"]}"
+
+# Due to cucumber quirks it turns out that matching a pattern based
+# on the parent's name is best; matching on the step name doesn't seem
+# to be of interest.
+# However, if the parent enclosed in an outline, its own file_colon_line
+# is the best match, otherwise the step's is.
+[local_time, utc_time].each do |time|
+# FIXME new style pattern matching?
+full_names = []
+if key.nil?
+full_names.push parent['name']
+else
+full_names.push parent['name'] + "_Scenarios_#{key}_"
+full_names.push parent['name'] + "_Examples_#{key}_"
+end
+
+# puts "PATTERN #{pattern}"
+
+# 170413_10????_example03_-_checking_multiple_pages_for_the_logo.*
+# 170413_102157_example03_-_checking_multiple_pages_for_the_logo_Scenarios_1_.png
+
+images.each do |fname, data|
+full_names.each do |full_name|
+pattern = Screenshots.get_screenshot_pattern(time, full_name)
+
+if File.fnmatch("*/" + pattern, fname)
+# FCL is really a path. Whether we include the parent element
+# depends on whether it's distinct from the parent element (i.e. an
+# outline).
+path = [current["file_colon_line"], step["file_colon_line"]]
+if parent != current
+path.unshift(parent["file_colon_line"])
+end
+#puts "  -> MATCH #{fname}: #{path}/#{parent["name"]}"
+if status != "passed" and (prev_status == "passed" or prev_status.nil?)
+puts "First unsuccessful, best match!"
+match_this = true
+elsif index == current["step_results_attributes"].length - 1
+puts "Last in list, best match!"
+match_this = true
+else
+puts "Nope, skipping it after all."
+end
+
+if match_this
+locs = mappings.fetch(fname, [])
+locs << {
+:file_colon_line => path,
+:summary => parent["name"]
+}
+puts "MATCHED!"
+
+# We have a potential match, but it's unclear whether we want to
+# have this particular match. Within a step list, we want to match
+# the screenshot to the first step that isn't succesful, or to the
+# last step in the list.
+match_this = false
+
+# 1. We know this is the first unsuccesful step because it'll not
+#    have the status "passed", but its predecessor will.
+status = step["status"]
+prev_status = nil
+if index > 0
+prev_status = current["step_results_attributes"][index - 1]["status"]
+end
+
+mappings[fname] = locs
+break
+end
+else
+puts "NO MATCH"
+end
+end
+end
+end
+
+# Prune any matched
+Screenshots.prune_images(mappings, images)
+end
+
+Screenshots.prune_images(mappings, images)
+end
+
+
+##
+# Match images to Gherkin lines based on the image file name, if possible.
+def self.match_scenario_names(mappings, portal_json, images)
+# We'll have to go through the portal JSON hierarchy bit by bit.
+portal_json["feature_results_attributes"].each do |feature|
+feature["steplist_results_attributes"].each do |steplist|
+Screenshots.process_scenario(mappings, portal_json, feature, steplist, steplist, images)
+end
+end
+
+Screenshots.prune_images(mappings, images)
+end
+
+
+def self.match_cucumber_json(mappings, settings, assets, json_assets, images, log)
+# Base path for image files
+repository = assets.get(settings["repository"])
+
+# The basis of all the files is the repository. Note that this requires
+# the task to run on the same worker as the test execution, because the
+# repository asset is not re-uploaded to the server with screenshots
+# included.
+json_assets.each do |json_asset|
+data = assets.get_contents(json_asset)
+begin
+json = JSON.parse(data)
+
+# For any screenshots we find, we want to get the matching step from
+# cucumber_json
+json.each do |feature|
+mappings = Screenshots.scan_json(repository, feature, feature["uri"], nil, mappings, log)
+end
+rescue StandardError => err
+# JSON parse error
+log.exception("Error processing cucumber JSON:", err)
+end
+end
+
+Screenshots.prune_images(mappings, images)
+end
+
+
+def self.deduplicate(mappings)
+# The only field we expect to be identical per asset location is the
+# file_colon_line field. So what we'll do with deduplication is merge
+# by identical file_colon_line, as long as other items only add to the
+# information and change nothing.
+mappings.each do |asset, locations|
+# Merge all locations for this asset by file_colon_line
+merged = {}
+locations.each do |loc|
+fcl = loc[:file_colon_line]
+
+locs = merged.fetch(fcl, [])
+if locs.empty?
+locs << loc
+else
+match = true
+locs.each do |l|
+# Summary... either it's new or identical
+if l.include? :summary and not l[:summary] == loc[:summary]
+match = false
+end
+
+# Same for timestamp
+if l.include? :timestamp and not l[:timestamp] == loc[:timestamp]
+match = false
+end
+
+if match
+l[:summary] = loc[:summary]
+l[:timestamp] = loc[:timestamp]
+break
+end
+end
+end
+merged[fcl] = locs
+end
+
+# Now if there are still multiple entries *per* file_colon_line, they
+# must be honoured individually.
+new_locations = []
+merged.each do |fcl, locs|
+locs.each do |loc|
+new_locations << loc
+end
+end
+
+# Overwrite with merged locations
+mappings[asset] = new_locations
+end
+end
+end
+end
